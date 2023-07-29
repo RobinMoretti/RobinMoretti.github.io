@@ -11,8 +11,12 @@
             "id": "105ee205fe4fc297",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "_posts/2023-06-27-log-6.md",
+                "mode": "preview",
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "_posts/2023-06-27-log-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "_posts/2023-06-27-log-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,14 +124,17 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "_posts/2023-06-27-log-6.md"
+              }
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -139,9 +148,9 @@
   },
   "active": "105ee205fe4fc297",
   "lastOpenFiles": [
+    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
     "_posts/2023-06-27-log-6.md",
     "_posts/2020-02-26-flake-it-till-you-make-it-to-delete - Copie.md",
-    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
     "_posts/2020-02-28-sample-markdown-to-delete.md",
     "_posts/2023-06-27-log-6/IMG_1570.mov",
     "Log.md",
