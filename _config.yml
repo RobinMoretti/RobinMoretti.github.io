@@ -10,10 +10,10 @@
 ############################
 
 # Name of website
-title: My Website
+title: Robin Moretti Blog
 
 # Your name to show in the footer
-author: Some Person
+author: Robin Moretti
 
 ###############################################
 # --- List of links in the navigation bar --- #
@@ -21,10 +21,10 @@ author: Some Person
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  # Resources:
+  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
+  #   - Learn markdown: "https://www.markdowntutorial.com/"
+  # Author's home: "https://deanattali.com"
 
 ################
 # --- Logo --- #
@@ -50,13 +50,12 @@ round-avatar: true
 # You can change the order that they show up on the page by changing the order here.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "someone@example.com"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  email: "piment"
+  rss: true
+  github: RobinMoretti
+  twitter: RobinMoretti
+  # patreon: DeanAttali
+  # youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -74,13 +73,13 @@ social-network-links:
 #  mastodon: instance.url/@username
 #  ORCID: your ORCID ID
 #  google-scholar: your google scholar
-#  discord: "invite_code" or "users/userid" or "invite/invite_code" 
+  discord: "users/robin.moretti" # "invite_code" or "users/userid" or "invite/invite_code" 
 #  kaggle: yourname
 #  hackerrank: yourname
 #  gitlab: yourname
 
 # If you want your website to generate an RSS feed, provide a description
-# The URL for the feed will be https://<your_website>/feed.xml
+# The URhL for te feed will be https://<your_website>/feed.xml
 rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
@@ -90,13 +89,13 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
-url-pretty: "MyWebsite.com"
+url-pretty: "blog.robinmoretti.eu"
 
 # Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
 excerpt_length: 50
@@ -127,17 +126,17 @@ navbar-var-length: false
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
 
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
-footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+navbar-col: "#fffafa"
+navbar-text-col: "#020202"
+navbar-border-col: "#ff6364"
+page-col: "#fffafa"
+text-col: "#020202"
+link-col: "#ff6364"
+hover-col: "#ff6364"
+footer-col: "#f4e2ce"
+footer-text-col: "#020202"
+footer-link-col: "#ff6364"
+footer-hover-col: "#ff6364"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour
@@ -173,10 +172,11 @@ footer-hover-col: "#0085A1"
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls
 # whether or not you want to allow users to opt out of tracking.
-#matomo:
-#  site_id: "9"
-#  uri: "demo.wiki.pro"
-#  opt-out: true
+matomo:
+ site_id: "3"
+ uri: "matomo.robinmoretti.eu"
+ opt-out: true
+
 
 # Google Universal Analytics ID -- deprecated
 # As of July 2023 this is no longer supported by Google! If you are still using `google_analytics`,
@@ -194,7 +194,7 @@ footer-hover-col: "#0085A1"
 #fb_comment_id: ""
 
 # To use CommentBox, sign up for a Project ID on https://commentbox.io
-#commentbox: "" # Project ID, e.g. "5694267682979840-proj"
+commentbox: "5735818605887488-proj" # Project ID, e.g. "5694267682979840-proj"
 
 # To use Utterances comments: (0) uncomment the following section, (1) fill in
 # "repository" (make sure the repository is public), (2) Enable Issues in your repository,
@@ -251,7 +251,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Toronto"
+timezone: "Europe/Paris"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
