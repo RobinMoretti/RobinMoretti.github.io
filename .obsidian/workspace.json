@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "0bf708eba328bc5c",
+        "id": "a3afe57fd195e3a7",
         "type": "tabs",
         "children": [
           {
-            "id": "79b68c1e17eb06eb",
+            "id": "105ee205fe4fc297",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "aboutme.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "aboutme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "aboutme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,17 +118,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "aboutme.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,6 +137,21 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "79b68c1e17eb06eb",
-  "lastOpenFiles": []
+  "active": "105ee205fe4fc297",
+  "lastOpenFiles": [
+    "_posts/2023-06-27-log-6.md",
+    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete - Copie.md",
+    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
+    "_posts/2020-02-28-sample-markdown-to-delete.md",
+    "_posts/2023-06-27-log-6/IMG_1570.mov",
+    "Log.md",
+    "_posts/2023-06-27-log-6/IMG_2620.mov",
+    "_posts/2023-06-27-log-6/IMG_2322.mov",
+    "_posts/2023-06-27-log-6/IMG_2320.mov",
+    "_posts/2023-06-27-log-6/IMG_1981.mov",
+    "_posts/2023-06-27-log-6/IMG_1894.mov",
+    "_posts/2023-06-27-log-6/IMG_1593.mov",
+    "_posts/2023-06-27-log-6",
+    "aboutme.md"
+  ]
 }
