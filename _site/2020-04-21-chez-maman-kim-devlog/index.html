@@ -1,0 +1,1219 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Chez maman Kim - Devlog</title>
+
+  
+  <meta name="author" content="Robin Moretti">
+  
+
+  <meta name="description" content="안녕 world.J'ai publié une de mes réalisions à l'occasion de la #JamChezMoi proposé par @MissMyu_ qui n'est pas encore terminé puisqu'elle est sensé se terminer après le confinement.Chez maman kim disponible ici gratuitement!Chez maman Kim by Robin MorettiIl est temps que je fasse un petit compte rendu de mon expérience.Bon...">
+
+  
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Robin Moretti Blog" href="/feed.xml">
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Robin Moretti Blog">
+  <meta property="og:title" content="Chez maman Kim - Devlog">
+  <meta property="og:description" content="안녕 world.J'ai publié une de mes réalisions à l'occasion de la #JamChezMoi proposé par @MissMyu_ qui n'est pas encore terminé puisqu'elle est sensé se terminer après le confinement.Chez maman kim disponible ici gratuitement!Chez maman Kim by Robin MorettiIl est temps que je fasse un petit compte rendu de mon expérience.Bon...">
+
+  
+  <meta property="og:image" content="/assets/img/avatar-icon.jpg">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Robin Moretti">
+  <meta property="og:article:published_time" content="2020-04-21T16:06:15+02:00">
+  <meta property="og:url" content="/2020-04-21-chez-maman-kim-devlog/">
+  <link rel="canonical" href="/2020-04-21-chez-maman-kim-devlog/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@RobinMoretti">
+  <meta name="twitter:creator" content="@RobinMoretti">
+
+  <meta property="twitter:title" content="Chez maman Kim - Devlog">
+  <meta property="twitter:description" content="안녕 world.J'ai publié une de mes réalisions à l'occasion de la #JamChezMoi proposé par @MissMyu_ qui n'est pas encore terminé puisqu'elle est sensé se terminer après le confinement.Chez maman kim disponible ici gratuitement!Chez maman Kim by Robin MorettiIl est temps que je fasse un petit compte rendu de mon expérience.Bon...">
+
+  
+  <meta name="twitter:image" content="/assets/img/avatar-icon.jpg">
+  
+
+  
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//matomo.robinmoretti.eu/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '3']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Piwik Code -->
+
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="">Robin Moretti Blog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li>
+</ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.jpg">
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Log 6", \
+          "desc"     : "Log 6", \
+          "category" : "log", \
+          "url"      : "/2023-06-27-log-6/", \
+          "date"     : "June 27, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Brume Vignette - devlog 2/2", \
+          "desc"     : "Brume Vignette - devlog 2/2", \
+          "category" : "", \
+          "url"      : "/2020-07-24-brume-vignette-devlog-22/", \
+          "date"     : "July 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Brume VIgnette  - Devlog 1/2", \
+          "desc"     : "Brume VIgnette  - Devlog 1/2", \
+          "category" : "devloggamedevart gamegamedevelopment", \
+          "url"      : "/2020-07-24-brume-vignette-devlog-12/", \
+          "date"     : "July 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Chez maman Kim - Devlog", \
+          "desc"     : "Chez maman Kim - Devlog", \
+          "category" : "game designgame devartgamedevloggamedevindie game", \
+          "url"      : "/2020-04-21-chez-maman-kim-devlog/", \
+          "date"     : "April 21, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Pornball! - devlog 2", \
+          "desc"     : "Pornball! - devlog 2", \
+          "category" : "unity3ddevloggamedevmadewithunitygamedevelopmentgame designvideo gamesartgamegameIndiegame", \
+          "url"      : "/2020-03-04-pornball-devlog-2/", \
+          "date"     : "March  4, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Sample blog post to learn markdown tips", \
+          "desc"     : "Sample blog post to learn markdown tips", \
+          "category" : "test", \
+          "url"      : "/2020-02-28-sample-markdown-to-delete/", \
+          "date"     : "February 28, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "prouttt", \
+          "desc"     : "prouttt", \
+          "category" : "bookstest", \
+          "url"      : "/2020-02-26-flake-it-till-you-make-it-to-delete/", \
+          "date"     : "February 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "prouttt", \
+          "desc"     : "prouttt", \
+          "category" : "bookstest", \
+          "url"      : "/2020-02-26-flake-it-till-you-make-it-to-delete-Copie/", \
+          "date"     : "February 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Pornball! - devlog 1", \
+          "desc"     : "Pornball! - devlog 1", \
+          "category" : "devlogUnity3Dunitygamedev", \
+          "url"      : "/2020-02-22-pornball-devlog-1/", \
+          "date"     : "February 22, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Bonjour l’internet", \
+          "desc"     : "Bonjour l’internet", \
+          "category" : "gamedevIndiegame", \
+          "url"      : "/2020-02-15-bonjour-linternet/", \
+          "date"     : "February 15, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "à défaut de ne pas pouvoir utilisé le terrain de", \
+          "desc"     : "à défaut de ne pas pouvoir utilisé le terrain de", \
+          "category" : "gamedevshaderUnity3DACI", \
+          "url"      : "/2017-08-14-%C3%A0-d%C3%A9faut-de-ne-pas-pouvoir-utilis%C3%A9-le-terrain-de/", \
+          "date"     : "August 14, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "et le téléphone de lépoque qui fait également", \
+          "desc"     : "et le téléphone de lépoque qui fait également", \
+          "category" : "gamedev3dmodelgame assetsunity3d", \
+          "url"      : "/2017-08-11-et-le-t%C3%A9l%C3%A9phone-de-l%C3%A9poque-qui-fait-%C3%A9galement/", \
+          "date"     : "August 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "bouche dincendie poteaux boîte aux lettres et", \
+          "desc"     : "bouche dincendie poteaux boîte aux lettres et", \
+          "category" : "3d modlingunity3dgamedevgame assets", \
+          "url"      : "/2017-08-11-bouche-dincendie-poteaux-bo%C3%AEte-aux-lettres-et/", \
+          "date"     : "August 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "aujourdhui jai modélisé lessentiel des petits", \
+          "desc"     : "aujourdhui jai modélisé lessentiel des petits", \
+          "category" : "game assetsunity3dIndiegameACI", \
+          "url"      : "/2017-08-10-aujourdhui-jai-mod%C3%A9lis%C3%A9-lessentiel-des-petits/", \
+          "date"     : "August 10, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Character “A Crossing Industry”", \
+          "desc"     : "Character “A Crossing Industry”", \
+          "category" : "Unity3Dcharacter design3d modelgamedev", \
+          "url"      : "/2017-08-09-character-a-crossing-industry/", \
+          "date"     : "August  9, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "aCrossingIdustrygamedevgame designunity3d", \
+          "url"      : "/2017-06-08-a-crossing-industry-recherches-manipulation-et/", \
+          "date"     : "June  8, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "aCrossingIdustrygamedevUnity3D", \
+          "url"      : "/2017-06-06-%C3%AEle-ou-bocal-ps-je-vais-poster-comment-jai/", \
+          "date"     : "June  6, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Crossing Industry", \
+          "desc"     : "Crossing Industry", \
+          "category" : "gamedevIndiegameartgame", \
+          "url"      : "/2017-05-30-crossing-industry/", \
+          "date"     : "May 30, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Labyrinthe by robinmoretti", \
+          "desc"     : "Labyrinthe by robinmoretti", \
+          "category" : "gamedevunityartgame", \
+          "url"      : "/2017-03-29-labyrinthe-by-robinmoretti/", \
+          "date"     : "March 29, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "MA RÉSIDENCE AU CENTRE HOSPITALIER CHARCOT", \
+          "desc"     : "MA RÉSIDENCE AU CENTRE HOSPITALIER CHARCOT", \
+          "category" : "gamedevartgameunityartresidencyart thérapie", \
+          "url"      : "/2017-03-23-ma-r%C3%A9sidence-au-centre-hospitalier-charcot/", \
+          "date"     : "March 23, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "ArtGameDemo #1", \
+          "desc"     : "ArtGameDemo #1", \
+          "category" : "jeuxvidéoindiegamevideo gamesartgame", \
+          "url"      : "/2017-02-27-artgamedemo-1/", \
+          "date"     : "February 27, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "IndiegameexperimentalgamingUnity3D", \
+          "url"      : "/2017-02-17-je-pr%C3%A9pare-la-perf-avec-le-copain-juliano-gil-du/", \
+          "date"     : "February 17, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "the first little toryansé short is called", \
+          "desc"     : "the first little toryansé short is called", \
+          "category" : "", \
+          "url"      : "/2017-02-15-the-first-little-toryans%C3%A9-short-is-called/", \
+          "date"     : "February 15, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "bonne année du coq les copainsinnes", \
+          "desc"     : "bonne année du coq les copainsinnes", \
+          "category" : "coqdrawingyear", \
+          "url"      : "/2017-01-28-bonne-ann%C3%A9e-du-coq-les-copainsinnes/", \
+          "date"     : "January 28, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevc4dcinema4dModeling", \
+          "url"      : "/2017-01-16-si-toi-aussi-tu-veux-apprendre-%C3%A0-skinner-comme-un/", \
+          "date"     : "January 16, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Résolution", \
+          "desc"     : "Résolution", \
+          "category" : "gamedevfuse", \
+          "url"      : "/2017-01-05-r%C3%A9solution/", \
+          "date"     : "January  5, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "on teste limport de model dans fuse", \
+          "desc"     : "on teste limport de model dans fuse", \
+          "category" : "fusegamedevModeling", \
+          "url"      : "/2017-01-03-on-teste-limport-de-model-dans-fuse/", \
+          "date"     : "January  3, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "control rope", \
+          "desc"     : "control rope", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-12-17-control-rope/", \
+          "date"     : "December 17, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Kouak news.", \
+          "desc"     : "Kouak news.", \
+          "category" : "", \
+          "url"      : "/2016-12-13-kouak-news/", \
+          "date"     : "December 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "un peu danimation", \
+          "desc"     : "un peu danimation", \
+          "category" : "", \
+          "url"      : "/2016-12-06-un-peu-danimation/", \
+          "date"     : "December  6, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunity3d", \
+          "url"      : "/2016-12-01-153919545838/", \
+          "date"     : "December  1, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "mon labyrinthe fait son chemin les blocs bleus", \
+          "desc"     : "mon labyrinthe fait son chemin les blocs bleus", \
+          "category" : "gamedevUnity3Dlabyrinth", \
+          "url"      : "/2016-11-29-mon-labyrinthe-fait-son-chemin-les-blocs-bleus/", \
+          "date"     : "November 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Programme", \
+          "desc"     : "Programme", \
+          "category" : "gamedev", \
+          "url"      : "/2016-11-28-programe/", \
+          "date"     : "November 28, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "ça commence a être pas mal", \
+          "desc"     : "ça commence a être pas mal", \
+          "category" : "gamedevUnity3Dc4dModeling", \
+          "url"      : "/2016-11-26-%C3%A7a-commence-a-%C3%AAtre-pas-mal/", \
+          "date"     : "November 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "weird", \
+          "desc"     : "weird", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-25-weird/", \
+          "date"     : "November 25, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "existenz piano", \
+          "desc"     : "existenz piano", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-24-existenz-piano/", \
+          "date"     : "November 24, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "mon beau taxi finis cest partis pour les enfants", \
+          "desc"     : "mon beau taxi finis cest partis pour les enfants", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-23-mon-beau-taxi-finis-cest-partis-pour-les-enfants/", \
+          "date"     : "November 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "took me a while but i finally got my animation", \
+          "desc"     : "took me a while but i finally got my animation", \
+          "category" : "", \
+          "url"      : "/2016-11-21-took-me-a-while-but-i-finally-got-my-animation/", \
+          "date"     : "November 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Digital attitude ", \
+          "desc"     : "Digital attitude ", \
+          "category" : "", \
+          "url"      : "/2016-11-18-digital-attitude/", \
+          "date"     : "November 18, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Surprised that global variable has undefined value in JavaScript", \
+          "desc"     : "Surprised that global variable has undefined value in JavaScript", \
+          "category" : "javascriptwebdesign", \
+          "url"      : "/2016-10-08-surprised-that-global-variable-has-undefined-value/", \
+          "date"     : "October  8, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-10-06-via-httpswwwyoutubecomwatchv-6ki2r9oieiy/", \
+          "date"     : "October  6, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "allez on sy remet un peu", \
+          "desc"     : "allez on sy remet un peu", \
+          "category" : "unity3dgamedev", \
+          "url"      : "/2016-09-02-allez-on-sy-remet-un-peu/", \
+          "date"     : "September  2, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Le “unsafe code”", \
+          "desc"     : "Le “unsafe code”", \
+          "category" : "gamedevfrDevunity3d", \
+          "url"      : "/2016-08-08-le-unsafe-code/", \
+          "date"     : "August  8, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "The order in which you supply vertices to the triangle array determines which direction the triangles will face. Clockwise (0,1,2) will be forwards facing and anti-clockwise (2,1,0) backwards.", \
+          "desc"     : "The order in which you supply vertices to the triangle array determines which direction the triangles will face. Clockwise (0,1,2) will be forwards facing and anti-clockwise (2,1,0) backwards.", \
+          "category" : "gamedev", \
+          "url"      : "/2016-08-07-the-order-in-which-you-supply-vertices-to-the/", \
+          "date"     : "August  7, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "subdivision polygonal 1er", \
+          "desc"     : "subdivision polygonal 1er", \
+          "category" : "gamdevUnity3D", \
+          "url"      : "/2016-08-05-subdivision-polygonal-1er/", \
+          "date"     : "August  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-07-26-s%C3%A9ries-de-tuto-unity-qui-d%C3%A9fonce/", \
+          "date"     : "July 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunityindiegame", \
+          "url"      : "/2016-07-18-via-httpswwwyoutubecomwatchv-bgbeklrfcfm/", \
+          "date"     : "July 18, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Home", \
+          "desc"     : "Home", \
+          "category" : "artgame", \
+          "url"      : "/2016-07-01-home/", \
+          "date"     : "July  1, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "scribble.audio", \
+          "desc"     : "scribble.audio", \
+          "category" : "sound", \
+          "url"      : "/2016-06-26-scribbleaudio/", \
+          "date"     : "June 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Robin Moretti on Twitter", \
+          "desc"     : "Robin Moretti on Twitter", \
+          "category" : "", \
+          "url"      : "/2016-06-14-robin-moretti-on-twitter/", \
+          "date"     : "June 14, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "et il fut", \
+          "desc"     : "et il fut", \
+          "category" : "", \
+          "url"      : "/2016-06-13-et-il-fut/", \
+          "date"     : "June 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "content", \
+          "url"      : "/2016-06-07-145557345768/", \
+          "date"     : "June  7, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-06-05-via-httpswwwyoutubecomwatchv-xluvytt0b88/", \
+          "date"     : "June  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Itching For More: Brume", \
+          "desc"     : "Itching For More: Brume", \
+          "category" : "", \
+          "url"      : "/2016-06-05-itching-for-more-brume/", \
+          "date"     : "June  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Superpowers by Sparklin Labs", \
+          "desc"     : "Superpowers by Sparklin Labs", \
+          "category" : "", \
+          "url"      : "/2016-06-04-superpowers-by-sparklin-labs/", \
+          "date"     : "June  4, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "youtubegamedev", \
+          "url"      : "/2016-05-29-vid%C3%A9o-de-la-brume-avec-une-version-bugg%C3%A9-et-il-as/", \
+          "date"     : "May 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Brume", \
+          "desc"     : "Brume", \
+          "category" : "Unity3DjeuxvidéogamedevIndiegameexperimental", \
+          "url"      : "/2016-05-23-brume/", \
+          "date"     : "May 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "bientôt comme à la maison", \
+          "desc"     : "bientôt comme à la maison", \
+          "category" : "cinema4dgamedev", \
+          "url"      : "/2016-05-09-bient%C3%B4t-comme-%C3%A0-la-maison/", \
+          "date"     : "May  9, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity + Processing + Arduino «  sundh.com", \
+          "desc"     : "Unity + Processing + Arduino «  sundh.com", \
+          "category" : "Unity3Dgamedev", \
+          "url"      : "/2016-04-20-unity-processing-arduino-sundhcom/", \
+          "date"     : "April 20, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevUnity3DIndiegame", \
+          "url"      : "/2016-04-13-walkthrough-brume-game-bient%C3%B4t-dans-les-bacs/", \
+          "date"     : "April 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity Keystone", \
+          "desc"     : "Unity Keystone", \
+          "category" : "Unity3Dgamedevprogrammingdev", \
+          "url"      : "/2016-04-12-unity-keystone/", \
+          "date"     : "April 12, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity3d Bug #1 Clustering", \
+          "desc"     : "Unity3d Bug #1 Clustering", \
+          "category" : "Unity3Dbug", \
+          "url"      : "/2016-04-10-unity3d-bug-1-clustering/", \
+          "date"     : "April 10, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunity3dplay", \
+          "url"      : "/2016-03-29-non-cest-un-pi%C3%A8ge-ps-le-ragdoll-cest-la/", \
+          "date"     : "March 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-03-26-141733500962/", \
+          "date"     : "March 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "zbrushgamedevmodeling3d", \
+          "url"      : "/2016-03-26-141729997318/", \
+          "date"     : "March 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_03BRUME", \
+          "desc"     : "Loop_03BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-23-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "C4D à Unity", \
+          "desc"     : "C4D à Unity", \
+          "category" : "gamedevetudeunity3dc4d", \
+          "url"      : "/2016-03-22-c4d-%C3%A0-unity/", \
+          "date"     : "March 22, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "3dgamedev", \
+          "url"      : "/2016-03-21-futur-lipsync-3d-audio/", \
+          "date"     : "March 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_02BRUME", \
+          "desc"     : "Loop_02BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-21-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_1=BRUME", \
+          "desc"     : "Loop_1=BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-20-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 20, 2016" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "About me", \
+          "desc"     : "About me", \
+          "category" : "page", \
+          "url"      : "/aboutme/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "desc"     : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page2/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page3/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page4/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page5/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page6/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page7/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page8/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page9/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page10/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page11/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page12/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page13/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page14/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Chez maman Kim - Devlog</h1>
+          
+
+          
+            <span class="post-meta">Posted on April 21, 2020</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</header>
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <p>안녕 world.</p>
+<figure data-orig-width="630" data-orig-height="500" class="tmblr-full"><img src="https://64.media.tumblr.com/3b779e171fe6eb30cb3b82de69b0f858/b280eff140b2cb76-0e/s540x810/5140c68531eace7f58447af7996cb462ea84246a.jpg" data-orig-width="630" data-orig-height="500"></figure><p>J'ai publié une de mes réalisions à l'occasion de la <a href="https://itch.io/jam/chez-moi" target="_blank">#JamChezMoi</a> proposé par <a href="https://twitter.com/MissMyu_" target="_blank">@MissMyu_</a> qui n'est pas encore terminé puisqu'elle est sensé se terminer après le confinement.</p>
+<p><b><b>Chez maman kim</b> disponible ici gratuitement!</b></p>
+<iframe src="https://itch.io/embed/606744?bg_color=ffffff&fg_color=222222&link_color=b69e87&border_color=cccccc" width="552" height="167" frameborder="0"><a href="https://robinmoretti.itch.io/maman-kim" target="_blank">Chez maman Kim by Robin Moretti</a></iframe><p>Il est temps que je fasse un petit compte rendu de mon expérience.</p>
+<!-- more --><p>Bon tout d'abord, même si je ne suis pas un expert, j'adore les jeux textuel, à gameplay augmenté (plus qu'un simple choix narratif). Où l'on explore, ou l'on interagit.</p>
+<p>Il y as les classiques un peu étrange:</p>
+<ul>
+<li>
+<a href="http://adarkroom.doublespeakgames.com/?lang=fr" target="_blank"><b>A dark room</b></a> de <i>Double speak games</i> ( mon best ) en 2014</li>
+<li>
+<b>Candy box!</b> par A<i>niwey</i> en 2013 ( le 1 n'est plus accessible → <a href="https://candybox2.github.io/candybox/" target="_blank"><b>Candy box 2</b></a> )</li>
+<li>
+<b><a href="https://clickclickclick.click/" target="_blank">Click</a></b>, par <i>Moniker</i>
+</li>
+</ul>
+<p>et il y a d'autres classiques plus classiques:</p>
+<ul>
+<li>
+<b>Zork I: The Great Underground Empire</b>, publié par Infocom en 1980</li>
+<li>
+<b>Colossal Cave Adventure</b> de <i>William Crowther</i> en 1975</li>
+</ul>
+<p>J'ai trouvé un très bon thread reddit sur le sujet, avec plein de jeux chelou dans le genre.</p>
+<p><a href="https://www.reddit.com/r/incremental_games/comments/3qp570/more_games_like_candybox_12_or_a_dark_room/" target="_blank">https://www.reddit.com/r/incremental_games/comments/3qp570/more_games_like_candybox_12_or_a_dark_room/</a></p>
+<p>On avait dédié un petit article au <b><a href="https://pangpangclub.com/" target="_blank">Pang Pang Club</a></b> avec <i><a href="http://theogoedert.com/" target="_blank">Théo Geodert</a></i> sur les Idl games, plus que les jeux browsers textuels, c'est toujours intéressant de ce le re-lire.</p>
+<p><a href="https://pangpangclub.com/blog/article-n-9" target="_blank">pangpangclub.com : Article n° 9</a></p>
+<p>Je me suis un peu plus planché sur le cas “<b>A dark room”,</b> best seller à ça sortie IOS avec un article interessant.</p>
+<p><a href="https://www.newyorker.com/tech/annals-of-technology/a-dark-room-the-best-selling-game-that-no-one-can-explain" target="_blank">A Dark Room: The Best-Selling Game That No One Can Explain</a></p>
+<blockquote>
+<p>Townsend says,“I originally wrote A Dark Room to tell its story entirely through environmental cues—no exposition, no dialogue, nothing.”</p>
+<p>“Environmental storytelling works well for games because it gives the player the feeling that they are constructing the narrative, even if they’re only discovering it,” Townsend says. “It works particularly well for ‘idle games’ due to their expanding nature. Instead of handing out a bit of exposition as a reward for progress, simply expanding the scope of the world gives players access to new pieces to fit into their narrative puzzle.”</p>
+</blockquote>
+<p>Bref les jeux textuelles à mécanique continue d'intéresser, comme quoi les graphismes ultra-réalistes ne sont pas toujours nécessaire. Un gameplay peu se passer de représentation graphiques tout en étant une simulation.</p>
+<p><b>Bref, Maman Kim!</b></p>
+<p>Tout d'abord ce jeu, c'était pour moi l'occasion de pouvoir participer à une jam avec les copains du Pang Pang Club et de réaliser quelque chose de plus narratif et écris qu'à mon habitude. <br></p>
+<p><a href="https://www.notion.so/Chez-Moi-au-Club-3957b8e77f1f4d3695f122f8ef0fc45e" target="_blank">+ d’infos ici -&gt; https://www.notion.so/Chez-Moi-au-Club-3957b8e77f1f4d3695f122f8ef0fc45e</a><br></p>
+<p>Le breif de départ était simple:</p>
+<blockquote><p>Et si on raconté quand on a rangé chez maman. C'était marrant non ?</p></blockquote>
+<p>Et puisque je suis loin (en Corée du Sud) et que je ne vis pas un confinement à la Française. J'ai plus l'envie de partager ma vie d'ici que de parler du confinement, <a href="https://itch.io/jam/chez-moi" target="_blank"><b>#jamChezMoi</b></a>.  Je vais parler à partir d'ici comme si vous aviez joué au jeu, <b>donc ! SPOIL !</b> 😅</p>
+<p>Il faut savoir que l'appartement de 15m2 dans lequel se passe cette tranche de vie, j'y ai passé quelque temps. Car louer un appartement en Corée, c'est compliqué. Ils s'ont un système de caution qui s'avère être très chère. Pour un 15-20m2 à Séoul, il faut compter, en général, une caution entre 4 000 et 6 000 euros. Plus la caution est grosse et plus le loyer est bas. Ça peut aller jusqu'à un loyer null, 전세.</p>
+<p>Vivre dans un 15m2 dans une famille populaire est un bon moyen de rencontrer de manière frontale la culture Coréenne.</p>
+<p>De plus, l'idée était de vous partager une expérience que j'aime particulièrement, fouiner dans les affaires des autres. La question était de trouver comment.</p>
+<p>J'ai créé ces 4 composant.</p>
+<ul>
+<li>les lieux, qui possèdent un inventaire, un nom et une description ( liste YML )</li>
+<li>les objets (qui peuvent être des lieux) avec eu aussi un nom et une description ( longue liste YML )</li>
+<li>nos mains, qui sont un inventaire</li>
+<li>la discussion</li>
+</ul>
+<p>Ils peuvent interagir entre eux, dans tous les sens, déclencher des événements (ajout d'objet, déclencher des discours, ouvrir des portes etc ).</p>
+<p><b>Le point technique.</b></p>
+<p>J'ai fabriqué ce jeu avec des technos web.</p>
+<p><b>1-</b> Le web devient le medium que je maitrise le mieu.</p>
+<p><b>2-</b> Ce jeu est en réalité une d'interface. Bizarrement, rien de pire que les interfaces dans les moteurs de jeux comme Unity3d.</p>
+<p>Le projet est sur repo open ici… <a href="https://github.com/RobinMoretti/mamanKim" target="_blank">https://github.com/RobinMoretti/mamanKim</a></p>
+<p>J'ai deux entités distinctes. Vuejs ( Framework javascript que j'addddooooorrrre ), l'entité parente globale pour la gestion de la navigation, l'interaction et l'inventaire. Puis, enfant de Vuejs via un iframe, Twee (twine sans interface graphique), pour gérer les discussions, qui n'est pas suffisant en soit pour produire plus qu'une fiction interactive.</p>
+<figure data-orig-width="806" data-orig-height="839" class="tmblr-full"><img src="https://64.media.tumblr.com/b5ce7bce38035598038e4c4f90f2a8f2/b280eff140b2cb76-4c/s540x810/07608a153515e62e1b4e581120bf4d677cd4aab5.png" data-orig-width="806" data-orig-height="839"></figure><p>Si certain y montrent de l’intérêt, ce serais peut être cool que je produise un <a href="https://en.wikipedia.org/wiki/Boilerplate_code" target="_blank">boilerplate</a> de mon système VueJs + Twee que j'ai réalisé….</p>
+<p>En tout cas les deux communiquent parfaitement.</p>
+<p>Pour l'écriture, j'aime les discussions du quotidien sans forcément de fond ou de direction particulièrement.</p>
+<p>Dans le genre, j'adore les premiers film de <i>Kevin Smith</i> comme <b>Clerks</b> ou un de mes films préféré <b>Les quatres saisons d'Espigoule</b> réalisé part <i>Christian Philibert</i>. On pourrait en citer énormément d'autres dans le style, avec probablement des plus important dans la culture du cinéma. Sans prétention se sont deux films qui m'ont particulièrement touchés.</p>
+<iframe src="https://www.youtube.com/embed/Tkx6lkT4Ds0?controls=0" allowfullscreen="" width="100%" height="315" frameborder="0"></iframe><iframe src="https://www.youtube.com/embed/WYRs_7iRLUQ" allowfullscreen="" width="100%" height="315" frameborder="0"></iframe><p>J'ai rencontré beaucoup de soucis “design” qui une fois résolut, deviennent totalement invisibles. Un des plus gênant était le fait que les joueurs était trop concentré sur l'inventaire. L'espace dédié à la discussion devenait invisible. Un simple flash du background a résolu le problème. Même chose pour le vestibule, la pièce est bloqué encombré avec un espace limite (active/désactive l'accès aux pièces suivantes). Le fond de couleur gris identique entre l'espace limite de l'inventaire et celui des bouton ont suffis à faire le lien. L'aspect de la sourit également à beaucoup fluidifié la compréhension de la navigation. Ce ne sont pas des solutions très élégantes, mais dans un contexte de jeu confiture, ça a fait le job.</p>
+<figure data-orig-width="202" data-orig-height="128"><img src="https://64.media.tumblr.com/aa88efd2e7838c076bc45e4b90a5985e/b280eff140b2cb76-27/s540x810/00b14042b3ee1d805fc3799f028445a6d25af70a.gif" data-orig-width="202" data-orig-height="128"></figure><figure data-orig-width="470" data-orig-height="702" class="tmblr-full"><img src="https://64.media.tumblr.com/103ecbec0b5364c8634eae2baf9bda72/b280eff140b2cb76-7f/s540x810/4a1f37cc3d481b7fda1779801fdccc8960cd0bc6.gif" data-orig-width="470" data-orig-height="702"></figure><p>Il n'y a pas du tout autant d'objets et d'espace que j'espérais. Il faudrait traduire le jeu en anglais. Peut-être, penser une version mobile….</p>
+<p>Il y a plein d'amélioration possible, même si je suis pleins de doutes et
+d'incertitudes concernant ce jeu, je suis content du résultat.</p>
+<p>Si le jeu vous a plu et que la culture à travers ces petits objets qui rentrent dans d'autres vous intéresse, voila une ouverture anthropologique sur le sujet (merci <a href="https://twitter.com/ChloeMoineau" target="_blank">Chloé Desmoineaux</a>).</p>
+<p><a href="https://www.partage-le.com/2018/01/29/8645/" target="_blank">–&gt; La théorie de la fiction-panier (par Ursula K. Le Guin)</a></p>
+<p>Over, tschüss, je vous love 💕.</p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#game%20design">game design</a>
+          
+            <a href="/tags#game%20dev">game dev</a>
+          
+            <a href="/tags#artgame">artgame</a>
+          
+            <a href="/tags#devlog">devlog</a>
+          
+            <a href="/tags#gamedev">gamedev</a>
+          
+            <a href="/tags#indie%20game">indie game</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id="social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Chez+maman+Kim+-+Devlog&amp;url=%2F2020-04-21-chez-maman-kim-devlog%2F" class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2020-04-21-chez-maman-kim-devlog%2F" class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/2020-03-04-pornball-devlog-2/" data-toggle="tooltip" data-placement="top" title="Pornball! - devlog 2">← Previous Post</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2020-07-24-brume-vignette-devlog-12/" data-toggle="tooltip" data-placement="top" title="Brume VIgnette  - Devlog 1/2">Next Post →</a>
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5735818605887488-proj')</script>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+<ul class="list-inline text-center footer-links">
+<li class="list-inline-item">
+    <a href="mailto:piment" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://github.com/RobinMoretti" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://twitter.com/RobinMoretti" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://discord.com/users/robin.moretti" title="Discord">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Discord</span>
+   </a>
+  </li>
+</ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Robin Moretti
+         • 
+      
+      2023
+
+      
+         • 
+        <span class="author-site">
+          <a href="">blog.robinmoretti.eu</a>
+        </span>
+      
+
+      
+        
+           • 
+          <a href="http://matomo.robinmoretti.eu/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+        
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Beautiful Jekyll 6.0.1 | Copyright Dean Attali 2023 -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+
+  
+
+  <title>Brume VIgnette  - Devlog 1/2</title>
+
+  
+  <meta name="author" content="Robin Moretti">
+  
+
+  <meta name="description" content="Bonjour à tous ! 😄J'ai enfin un peu de temps libre pour écrire un devlog concernant Brume Vignette réalisé à l'occasion de la jam du Pang Pang Club #PPJVignette, il y a quelque temps, du 16 au 18 juin 2020. Brume vignette by Robin Moretti English version here Le sujet...">
+
+  
+
+  
+
+  
+  <link rel="alternate" type="application/rss+xml" title="Robin Moretti Blog" href="/feed.xml">
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+    
+      
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    
+      
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+
+
+    
+      
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800">
+
+
+    
+  
+
+  
+    
+      <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
+    
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
+    
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  <meta property="og:site_name" content="Robin Moretti Blog">
+  <meta property="og:title" content="Brume VIgnette  - Devlog 1/2">
+  <meta property="og:description" content="Bonjour à tous ! 😄J'ai enfin un peu de temps libre pour écrire un devlog concernant Brume Vignette réalisé à l'occasion de la jam du Pang Pang Club #PPJVignette, il y a quelque temps, du 16 au 18 juin 2020. Brume vignette by Robin Moretti English version here Le sujet...">
+
+  
+  <meta property="og:image" content="/assets/img/avatar-icon.jpg">
+  
+
+  
+  <meta property="og:type" content="article">
+  <meta property="og:article:author" content="Robin Moretti">
+  <meta property="og:article:published_time" content="2020-07-24T12:57:35+02:00">
+  <meta property="og:url" content="/2020-07-24-brume-vignette-devlog-12/">
+  <link rel="canonical" href="/2020-07-24-brume-vignette-devlog-12/">
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  
+  <meta name="twitter:site" content="@RobinMoretti">
+  <meta name="twitter:creator" content="@RobinMoretti">
+
+  <meta property="twitter:title" content="Brume VIgnette  - Devlog 1/2">
+  <meta property="twitter:description" content="Bonjour à tous ! 😄J'ai enfin un peu de temps libre pour écrire un devlog concernant Brume Vignette réalisé à l'occasion de la jam du Pang Pang Club #PPJVignette, il y a quelque temps, du 16 au 18 juin 2020. Brume vignette by Robin Moretti English version here Le sujet...">
+
+  
+  <meta name="twitter:image" content="/assets/img/avatar-icon.jpg">
+  
+
+  
+  <!-- Matomo -->
+  <script type="text/javascript">
+    var _paq = _paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+      var u="//matomo.robinmoretti.eu/";
+      _paq.push(['setTrackerUrl', u+'piwik.php']);
+      _paq.push(['setSiteId', '3']);
+      var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+      g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+  </script>
+  <!-- End Piwik Code -->
+
+
+
+  
+
+  
+
+</head>
+
+
+<body>
+
+  
+
+
+  <nav class="navbar navbar-expand-xl navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="">Robin Moretti Blog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="main-navbar">
+    <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/aboutme">About Me</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" id="nav-search-link" href="#" title="Search">
+            <span id="nav-search-icon" class="fa fa-search"></span>
+            <span id="nav-search-text">Search</span>
+          </a>
+        </li>
+</ul>
+  </div>
+
+  
+
+  
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        <a href="">
+          <img alt="Navigation bar avatar" class="avatar-img" src="/assets/img/avatar-icon.jpg">
+        </a>
+      </div>
+    </div>
+  
+
+</nav>
+
+
+
+<div id="beautifuljekyll-search-overlay">
+
+  <div id="nav-search-exit" title="Exit search">✕</div>
+  <input type="text" id="nav-search-input" placeholder="Search">
+  <ul id="search-results-container"></ul>
+  
+  <script src="https://unpkg.com/simple-jekyll-search@latest/dest/simple-jekyll-search.min.js"></script>
+  <script>
+    var searchjson = '[ \
+       \
+        { \
+          "title"    : "Log 6", \
+          "desc"     : "Log 6", \
+          "category" : "log", \
+          "url"      : "/2023-06-27-log-6/", \
+          "date"     : "June 27, 2023" \
+        }, \
+       \
+        { \
+          "title"    : "Brume Vignette - devlog 2/2", \
+          "desc"     : "Brume Vignette - devlog 2/2", \
+          "category" : "", \
+          "url"      : "/2020-07-24-brume-vignette-devlog-22/", \
+          "date"     : "July 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Brume VIgnette  - Devlog 1/2", \
+          "desc"     : "Brume VIgnette  - Devlog 1/2", \
+          "category" : "devloggamedevart gamegamedevelopment", \
+          "url"      : "/2020-07-24-brume-vignette-devlog-12/", \
+          "date"     : "July 24, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Chez maman Kim - Devlog", \
+          "desc"     : "Chez maman Kim - Devlog", \
+          "category" : "game designgame devartgamedevloggamedevindie game", \
+          "url"      : "/2020-04-21-chez-maman-kim-devlog/", \
+          "date"     : "April 21, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Pornball! - devlog 2", \
+          "desc"     : "Pornball! - devlog 2", \
+          "category" : "unity3ddevloggamedevmadewithunitygamedevelopmentgame designvideo gamesartgamegameIndiegame", \
+          "url"      : "/2020-03-04-pornball-devlog-2/", \
+          "date"     : "March  4, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Sample blog post to learn markdown tips", \
+          "desc"     : "Sample blog post to learn markdown tips", \
+          "category" : "test", \
+          "url"      : "/2020-02-28-sample-markdown-to-delete/", \
+          "date"     : "February 28, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "prouttt", \
+          "desc"     : "prouttt", \
+          "category" : "bookstest", \
+          "url"      : "/2020-02-26-flake-it-till-you-make-it-to-delete/", \
+          "date"     : "February 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "prouttt", \
+          "desc"     : "prouttt", \
+          "category" : "bookstest", \
+          "url"      : "/2020-02-26-flake-it-till-you-make-it-to-delete-Copie/", \
+          "date"     : "February 26, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Pornball! - devlog 1", \
+          "desc"     : "Pornball! - devlog 1", \
+          "category" : "devlogUnity3Dunitygamedev", \
+          "url"      : "/2020-02-22-pornball-devlog-1/", \
+          "date"     : "February 22, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "Bonjour l’internet", \
+          "desc"     : "Bonjour l’internet", \
+          "category" : "gamedevIndiegame", \
+          "url"      : "/2020-02-15-bonjour-linternet/", \
+          "date"     : "February 15, 2020" \
+        }, \
+       \
+        { \
+          "title"    : "à défaut de ne pas pouvoir utilisé le terrain de", \
+          "desc"     : "à défaut de ne pas pouvoir utilisé le terrain de", \
+          "category" : "gamedevshaderUnity3DACI", \
+          "url"      : "/2017-08-14-%C3%A0-d%C3%A9faut-de-ne-pas-pouvoir-utilis%C3%A9-le-terrain-de/", \
+          "date"     : "August 14, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "et le téléphone de lépoque qui fait également", \
+          "desc"     : "et le téléphone de lépoque qui fait également", \
+          "category" : "gamedev3dmodelgame assetsunity3d", \
+          "url"      : "/2017-08-11-et-le-t%C3%A9l%C3%A9phone-de-l%C3%A9poque-qui-fait-%C3%A9galement/", \
+          "date"     : "August 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "bouche dincendie poteaux boîte aux lettres et", \
+          "desc"     : "bouche dincendie poteaux boîte aux lettres et", \
+          "category" : "3d modlingunity3dgamedevgame assets", \
+          "url"      : "/2017-08-11-bouche-dincendie-poteaux-bo%C3%AEte-aux-lettres-et/", \
+          "date"     : "August 11, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "aujourdhui jai modélisé lessentiel des petits", \
+          "desc"     : "aujourdhui jai modélisé lessentiel des petits", \
+          "category" : "game assetsunity3dIndiegameACI", \
+          "url"      : "/2017-08-10-aujourdhui-jai-mod%C3%A9lis%C3%A9-lessentiel-des-petits/", \
+          "date"     : "August 10, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Character “A Crossing Industry”", \
+          "desc"     : "Character “A Crossing Industry”", \
+          "category" : "Unity3Dcharacter design3d modelgamedev", \
+          "url"      : "/2017-08-09-character-a-crossing-industry/", \
+          "date"     : "August  9, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "aCrossingIdustrygamedevgame designunity3d", \
+          "url"      : "/2017-06-08-a-crossing-industry-recherches-manipulation-et/", \
+          "date"     : "June  8, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "aCrossingIdustrygamedevUnity3D", \
+          "url"      : "/2017-06-06-%C3%AEle-ou-bocal-ps-je-vais-poster-comment-jai/", \
+          "date"     : "June  6, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Crossing Industry", \
+          "desc"     : "Crossing Industry", \
+          "category" : "gamedevIndiegameartgame", \
+          "url"      : "/2017-05-30-crossing-industry/", \
+          "date"     : "May 30, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Labyrinthe by robinmoretti", \
+          "desc"     : "Labyrinthe by robinmoretti", \
+          "category" : "gamedevunityartgame", \
+          "url"      : "/2017-03-29-labyrinthe-by-robinmoretti/", \
+          "date"     : "March 29, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "MA RÉSIDENCE AU CENTRE HOSPITALIER CHARCOT", \
+          "desc"     : "MA RÉSIDENCE AU CENTRE HOSPITALIER CHARCOT", \
+          "category" : "gamedevartgameunityartresidencyart thérapie", \
+          "url"      : "/2017-03-23-ma-r%C3%A9sidence-au-centre-hospitalier-charcot/", \
+          "date"     : "March 23, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "ArtGameDemo #1", \
+          "desc"     : "ArtGameDemo #1", \
+          "category" : "jeuxvidéoindiegamevideo gamesartgame", \
+          "url"      : "/2017-02-27-artgamedemo-1/", \
+          "date"     : "February 27, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "IndiegameexperimentalgamingUnity3D", \
+          "url"      : "/2017-02-17-je-pr%C3%A9pare-la-perf-avec-le-copain-juliano-gil-du/", \
+          "date"     : "February 17, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "the first little toryansé short is called", \
+          "desc"     : "the first little toryansé short is called", \
+          "category" : "", \
+          "url"      : "/2017-02-15-the-first-little-toryans%C3%A9-short-is-called/", \
+          "date"     : "February 15, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "bonne année du coq les copainsinnes", \
+          "desc"     : "bonne année du coq les copainsinnes", \
+          "category" : "coqdrawingyear", \
+          "url"      : "/2017-01-28-bonne-ann%C3%A9e-du-coq-les-copainsinnes/", \
+          "date"     : "January 28, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevc4dcinema4dModeling", \
+          "url"      : "/2017-01-16-si-toi-aussi-tu-veux-apprendre-%C3%A0-skinner-comme-un/", \
+          "date"     : "January 16, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "Résolution", \
+          "desc"     : "Résolution", \
+          "category" : "gamedevfuse", \
+          "url"      : "/2017-01-05-r%C3%A9solution/", \
+          "date"     : "January  5, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "on teste limport de model dans fuse", \
+          "desc"     : "on teste limport de model dans fuse", \
+          "category" : "fusegamedevModeling", \
+          "url"      : "/2017-01-03-on-teste-limport-de-model-dans-fuse/", \
+          "date"     : "January  3, 2017" \
+        }, \
+       \
+        { \
+          "title"    : "control rope", \
+          "desc"     : "control rope", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-12-17-control-rope/", \
+          "date"     : "December 17, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Kouak news.", \
+          "desc"     : "Kouak news.", \
+          "category" : "", \
+          "url"      : "/2016-12-13-kouak-news/", \
+          "date"     : "December 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "un peu danimation", \
+          "desc"     : "un peu danimation", \
+          "category" : "", \
+          "url"      : "/2016-12-06-un-peu-danimation/", \
+          "date"     : "December  6, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunity3d", \
+          "url"      : "/2016-12-01-153919545838/", \
+          "date"     : "December  1, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "mon labyrinthe fait son chemin les blocs bleus", \
+          "desc"     : "mon labyrinthe fait son chemin les blocs bleus", \
+          "category" : "gamedevUnity3Dlabyrinth", \
+          "url"      : "/2016-11-29-mon-labyrinthe-fait-son-chemin-les-blocs-bleus/", \
+          "date"     : "November 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Programme", \
+          "desc"     : "Programme", \
+          "category" : "gamedev", \
+          "url"      : "/2016-11-28-programe/", \
+          "date"     : "November 28, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "ça commence a être pas mal", \
+          "desc"     : "ça commence a être pas mal", \
+          "category" : "gamedevUnity3Dc4dModeling", \
+          "url"      : "/2016-11-26-%C3%A7a-commence-a-%C3%AAtre-pas-mal/", \
+          "date"     : "November 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "weird", \
+          "desc"     : "weird", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-25-weird/", \
+          "date"     : "November 25, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "existenz piano", \
+          "desc"     : "existenz piano", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-24-existenz-piano/", \
+          "date"     : "November 24, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "mon beau taxi finis cest partis pour les enfants", \
+          "desc"     : "mon beau taxi finis cest partis pour les enfants", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-11-23-mon-beau-taxi-finis-cest-partis-pour-les-enfants/", \
+          "date"     : "November 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "took me a while but i finally got my animation", \
+          "desc"     : "took me a while but i finally got my animation", \
+          "category" : "", \
+          "url"      : "/2016-11-21-took-me-a-while-but-i-finally-got-my-animation/", \
+          "date"     : "November 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Digital attitude ", \
+          "desc"     : "Digital attitude ", \
+          "category" : "", \
+          "url"      : "/2016-11-18-digital-attitude/", \
+          "date"     : "November 18, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Surprised that global variable has undefined value in JavaScript", \
+          "desc"     : "Surprised that global variable has undefined value in JavaScript", \
+          "category" : "javascriptwebdesign", \
+          "url"      : "/2016-10-08-surprised-that-global-variable-has-undefined-value/", \
+          "date"     : "October  8, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-10-06-via-httpswwwyoutubecomwatchv-6ki2r9oieiy/", \
+          "date"     : "October  6, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "allez on sy remet un peu", \
+          "desc"     : "allez on sy remet un peu", \
+          "category" : "unity3dgamedev", \
+          "url"      : "/2016-09-02-allez-on-sy-remet-un-peu/", \
+          "date"     : "September  2, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Le “unsafe code”", \
+          "desc"     : "Le “unsafe code”", \
+          "category" : "gamedevfrDevunity3d", \
+          "url"      : "/2016-08-08-le-unsafe-code/", \
+          "date"     : "August  8, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "The order in which you supply vertices to the triangle array determines which direction the triangles will face. Clockwise (0,1,2) will be forwards facing and anti-clockwise (2,1,0) backwards.", \
+          "desc"     : "The order in which you supply vertices to the triangle array determines which direction the triangles will face. Clockwise (0,1,2) will be forwards facing and anti-clockwise (2,1,0) backwards.", \
+          "category" : "gamedev", \
+          "url"      : "/2016-08-07-the-order-in-which-you-supply-vertices-to-the/", \
+          "date"     : "August  7, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "subdivision polygonal 1er", \
+          "desc"     : "subdivision polygonal 1er", \
+          "category" : "gamdevUnity3D", \
+          "url"      : "/2016-08-05-subdivision-polygonal-1er/", \
+          "date"     : "August  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevUnity3D", \
+          "url"      : "/2016-07-26-s%C3%A9ries-de-tuto-unity-qui-d%C3%A9fonce/", \
+          "date"     : "July 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunityindiegame", \
+          "url"      : "/2016-07-18-via-httpswwwyoutubecomwatchv-bgbeklrfcfm/", \
+          "date"     : "July 18, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Home", \
+          "desc"     : "Home", \
+          "category" : "artgame", \
+          "url"      : "/2016-07-01-home/", \
+          "date"     : "July  1, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "scribble.audio", \
+          "desc"     : "scribble.audio", \
+          "category" : "sound", \
+          "url"      : "/2016-06-26-scribbleaudio/", \
+          "date"     : "June 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Robin Moretti on Twitter", \
+          "desc"     : "Robin Moretti on Twitter", \
+          "category" : "", \
+          "url"      : "/2016-06-14-robin-moretti-on-twitter/", \
+          "date"     : "June 14, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "et il fut", \
+          "desc"     : "et il fut", \
+          "category" : "", \
+          "url"      : "/2016-06-13-et-il-fut/", \
+          "date"     : "June 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "content", \
+          "url"      : "/2016-06-07-145557345768/", \
+          "date"     : "June  7, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-06-05-via-httpswwwyoutubecomwatchv-xluvytt0b88/", \
+          "date"     : "June  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Itching For More: Brume", \
+          "desc"     : "Itching For More: Brume", \
+          "category" : "", \
+          "url"      : "/2016-06-05-itching-for-more-brume/", \
+          "date"     : "June  5, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Superpowers by Sparklin Labs", \
+          "desc"     : "Superpowers by Sparklin Labs", \
+          "category" : "", \
+          "url"      : "/2016-06-04-superpowers-by-sparklin-labs/", \
+          "date"     : "June  4, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "youtubegamedev", \
+          "url"      : "/2016-05-29-vid%C3%A9o-de-la-brume-avec-une-version-bugg%C3%A9-et-il-as/", \
+          "date"     : "May 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Brume", \
+          "desc"     : "Brume", \
+          "category" : "Unity3DjeuxvidéogamedevIndiegameexperimental", \
+          "url"      : "/2016-05-23-brume/", \
+          "date"     : "May 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "bientôt comme à la maison", \
+          "desc"     : "bientôt comme à la maison", \
+          "category" : "cinema4dgamedev", \
+          "url"      : "/2016-05-09-bient%C3%B4t-comme-%C3%A0-la-maison/", \
+          "date"     : "May  9, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity + Processing + Arduino «  sundh.com", \
+          "desc"     : "Unity + Processing + Arduino «  sundh.com", \
+          "category" : "Unity3Dgamedev", \
+          "url"      : "/2016-04-20-unity-processing-arduino-sundhcom/", \
+          "date"     : "April 20, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevUnity3DIndiegame", \
+          "url"      : "/2016-04-13-walkthrough-brume-game-bient%C3%B4t-dans-les-bacs/", \
+          "date"     : "April 13, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity Keystone", \
+          "desc"     : "Unity Keystone", \
+          "category" : "Unity3Dgamedevprogrammingdev", \
+          "url"      : "/2016-04-12-unity-keystone/", \
+          "date"     : "April 12, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Unity3d Bug #1 Clustering", \
+          "desc"     : "Unity3d Bug #1 Clustering", \
+          "category" : "Unity3Dbug", \
+          "url"      : "/2016-04-10-unity3d-bug-1-clustering/", \
+          "date"     : "April 10, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "gamedevunity3dplay", \
+          "url"      : "/2016-03-29-non-cest-un-pi%C3%A8ge-ps-le-ragdoll-cest-la/", \
+          "date"     : "March 29, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "", \
+          "url"      : "/2016-03-26-141733500962/", \
+          "date"     : "March 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "zbrushgamedevmodeling3d", \
+          "url"      : "/2016-03-26-141729997318/", \
+          "date"     : "March 26, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_03BRUME", \
+          "desc"     : "Loop_03BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-23-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 23, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "C4D à Unity", \
+          "desc"     : "C4D à Unity", \
+          "category" : "gamedevetudeunity3dc4d", \
+          "url"      : "/2016-03-22-c4d-%C3%A0-unity/", \
+          "date"     : "March 22, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "no title", \
+          "desc"     : "no title", \
+          "category" : "3dgamedev", \
+          "url"      : "/2016-03-21-futur-lipsync-3d-audio/", \
+          "date"     : "March 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_02BRUME", \
+          "desc"     : "Loop_02BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-21-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 21, 2016" \
+        }, \
+       \
+        { \
+          "title"    : "Loop_1=BRUME", \
+          "desc"     : "Loop_1=BRUME", \
+          "category" : "", \
+          "url"      : "/2016-03-20-recherche-de-loop-fait-avec-bosca-ceoil/", \
+          "date"     : "March 20, 2016" \
+        }, \
+       \
+       \
+        { \
+          "title"    : "About me", \
+          "desc"     : "About me", \
+          "category" : "page", \
+          "url"      : "/aboutme/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Tag Index", \
+          "desc"     : "Tag Index", \
+          "category" : "page", \
+          "url"      : "/tags/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page2/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page3/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page4/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page5/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page6/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page7/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page8/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page9/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page10/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page11/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page12/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page13/", \
+          "date"     : "January 1, 1970" \
+        }, \
+       \
+        { \
+          "title"    : "Blog - RM", \
+          "desc"     : "Blog - RM", \
+          "category" : "page", \
+          "url"      : "/page14/", \
+          "date"     : "January 1, 1970" \
+        } \
+       \
+    ]';
+    searchjson = JSON.parse(searchjson);
+
+    var sjs = SimpleJekyllSearch({
+      searchInput: document.getElementById('nav-search-input'),
+      resultsContainer: document.getElementById('search-results-container'),
+      json: searchjson
+    });
+  </script>
+</div>
+
+
+
+
+
+  <!-- TODO this file has become a mess, refactor it -->
+
+
+
+
+
+
+
+<header class="header-section ">
+
+<div class="intro-header no-img">
+  <div class="container-md">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+        <div class="post-heading">
+          <h1>Brume VIgnette  - Devlog 1/2</h1>
+          
+
+          
+            <span class="post-meta">Posted on July 24, 2020</span>
+            
+            
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</header>
+
+
+
+
+<div class=" container-md ">
+  <div class="row">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+
+      
+
+      
+
+      <article role="main" class="blog-post">
+        <p>Bonjour à tous ! 😄</p>
+<p>J'ai enfin un peu de temps libre pour écrire un devlog concernant Brume Vignette réalisé à l'occasion de la jam du Pang Pang Club <a href="https://itch.io/jam/ppj-vignette" target="_blank">#PPJVignette</a>, il y a quelque temps, du 16 au 18 juin 2020.
+
+</p>
+<figure class="tmblr-full" data-orig-height="451" data-orig-width="480"><img src="https://64.media.tumblr.com/8815f7677f5bc457115c270361d456ce/e578c86e1598c3f9-4b/s540x810/b7ff467f66417086d7e59ef33d0925543b7e47d1.gif" alt="" data-orig-height="451" data-orig-width="480"></figure><p><br></p>
+
+<p><iframe src="https://itch.io/embed/674096?linkback=true&border_width=4&bg_color=ffffff&fg_color=474d87&link_color=262b61&border_color=cccccc" width="558" height="173" frameborder="0"><a href="https://robinmoretti.itch.io/brume-vignette" target="_blank">Brume vignette by Robin Moretti</a></iframe></p>
+
+
+<p><a href="https://robinmoretti.itch.io/brume-vignette/devlog/164471/how-to-brume-vignette-small-devlog-enfr" target="_blank">English version here</a></p>
+<!-- more -->
+<p>Le sujet était relativement simple, “<b>Vignette”</b>.</p>
+<p><b>Qu'est-ce que c'est une vignette ?</b></p>
+<ul>
+<li>une scène courte, entre 1 sec et une poignée de minutes</li>
+<li>une interaction simple</li>
+<li>une capsule atmosphérique</li>
+<li>un moment “gratuit”</li>
+</ul>
+<p><b>Contraintes:</b></p>
+<ul>
+<li>un cadrage carré</li>
+<li>un plan fixe</li>
+</ul>
+<p>Une vignette peut être suivie, ou non, de plusieurs autres vignettes.</p>
+<p>L'idée était pour moi très simple. Depuis mon diplôme, j'ai des séries de dessins Brume qui traînent. C'était l'occasion de tester quelque chose de plus graphique avec de simples interactions. Une petite balade onirique graphique, rythmé pas l'interaction au click de la souris, potentiellement fonctionnel sur téléphone.</p>
+<p>Voici la série de mes dessins originaux qui m'ont inspiré.
+</p>
+<figure class="tmblr-full" data-orig-height="1906" data-orig-width="1500"><img src="https://64.media.tumblr.com/8fc77bdaf40f76a17a48d67dd580083c/e578c86e1598c3f9-74/s540x810/513ef43fcf5267709dac9364156a869a4c7dff2a.jpg" alt="" data-orig-height="1906" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1892" data-orig-width="1500"><img src="https://64.media.tumblr.com/05503444cf16f8b34f371180f81885ca/e578c86e1598c3f9-3b/s540x810/0d6eb101bcca7e343b1d2a46a0a07936ac710d8b.jpg" alt="" data-orig-height="1892" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1875" data-orig-width="1500"><img src="https://64.media.tumblr.com/38778992c582eade076335b7be0d8eca/e578c86e1598c3f9-a2/s540x810/52e740698c11d1658349e544ebc9b6b2518f7978.jpg" alt="" data-orig-height="1875" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1875" data-orig-width="1500"><img src="https://64.media.tumblr.com/7a1eacf72e3d6a506cfee7b2266338ce/e578c86e1598c3f9-23/s540x810/21861bfb37b719dab52a7ed1002c1146fd2d2efd.jpg" alt="" data-orig-height="1875" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1874" data-orig-width="1500"><img src="https://64.media.tumblr.com/0fc4a1ea56322ba2579b1a7cc695e503/e578c86e1598c3f9-77/s540x810/0490e415bf08529e57ae061f3a5f806db3eb6ac0.jpg" alt="" data-orig-height="1874" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1916" data-orig-width="1500"><img src="https://64.media.tumblr.com/d24dc3e4b8fccf3f87961230357ed204/e578c86e1598c3f9-47/s540x810/988651a2b5cbf7f8f2aa259b62a8793f9eebb9b1.jpg" alt="" data-orig-height="1916" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1875" data-orig-width="1500"><img src="https://64.media.tumblr.com/c26fdf7a81c921f898d78ace48ac6fa1/e578c86e1598c3f9-43/s540x810/66389a2b17d9bafe111d72b7d4dc39d640491dde.jpg" alt="" data-orig-height="1875" data-orig-width="1500"></figure><p>Mon premier objectif, une semaine avant la jam, était de me préparer un maximum, sans créer d'assets. Mon plan était de réaliser en avance :</p>
+<ul>
+<li>Un story board</li>
+<li>Mettre en place le workflow en avance, notamment la production des assets (dessin, animation etc)</li>
+<li>Trouver les méthodes de programmations concernant les principaux modules ( enchènement des scènes, drag and drop etc )</li>
+</ul>
+<h2>Storyboard:</h2>
+<figure class="tmblr-full" data-orig-height="1500" data-orig-width="1500"><img src="https://64.media.tumblr.com/e4f73838e2d67ad6bbca96bc5b3a1d55/e578c86e1598c3f9-51/s540x810/96a39ca954bac01fd459863c14c962efbc52e7b5.jpg" alt="" data-orig-height="1500" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1500" data-orig-width="1500"><img src="https://64.media.tumblr.com/9e5068611d2916ce57cd126a6a0ef678/e578c86e1598c3f9-16/s540x810/2cfa2d3e5b5aab7ef67c4e6ddcec5288a3517449.jpg" alt="" data-orig-height="1500" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1500" data-orig-width="1500"><img src="https://64.media.tumblr.com/258f1d74d3dd73c962159be8b1c5c1c4/e578c86e1598c3f9-ee/s540x810/b72e9869658775b8006b20f8037af48a4d0fbd9d.jpg" alt="" data-orig-height="1500" data-orig-width="1500"></figure><figure class="tmblr-full" data-orig-height="1500" data-orig-width="1500"><img src="https://64.media.tumblr.com/88ff446e06e94aeabadfcf08f166ea6f/e578c86e1598c3f9-e9/s540x810/f093532f260c35ebd875fdd9233ef22235634353.jpg" alt="" data-orig-height="1500" data-orig-width="1500"></figure><p></p>
+<p>Juste deux mots sur le contenu, il n'est pas forcement “explicable” et je ne suis pas sûr que se soit réellement intéressant. J'aime l'idée de vous laisser naviguer dans quelque chose de semi abstrait. Un commentaire de mon premier jeu Brume me revient, “c'est de l'impressionnisme vidéo-ludique”, sans être entièrement d'accord, un peintre à t-il vraiment nécessité à expliquer son sujet ? Je ne suis pas sûr. Ce qui m'importe, c'est que le changement de scène, l'ellipse et l'interaction soit chef d'orchestre et narrateur. En tout cas, je suis content du résultat et de l'ambiance produite.</p>
+<p>Bref, je continue.</p>
+<h2>Animation (unit3D)</h2>
+<p>Maintenant le système d'animation 2D de Unity, qui est à mon avis, est vraiment génial, mais avec un GROS default.
+</p>
+<figure class="tmblr-full" data-orig-height="420" data-orig-width="532"><img src="https://64.media.tumblr.com/bd1da96e725b7bdcf2ea4db36dc9d4e1/e578c86e1598c3f9-ac/s540x810/5d1f90b4242781b9b1be2ce09d1e67fd7a2c0cf2.gif" alt="" data-orig-height="420" data-orig-width="532"></figure><p>À la base, Unity n'intégrait aucun système 2d ( lorsque j'ai commencé à fabriquer mes premiers jeux 2015-2016).</p>
+<p>Il existé alors quelque plugins payant, donc inaccessible pour moi. C'est comme ça que j'ai commencé la 3d, qui est à mon sens, est moins accessible et bien plus difficile à prendre en mains afin d'obtenir des rendus graphiques originaux et/ou avec un parti prix fort.</p>
+<p>Aujourd'hui, c'est tout autre chose, il y a eu le plugin expérimental Anima2D, fabriqué par Unity, qui était vraiment super. Aujourd'hui, il est directement intégré comme package officiel sous le nom de…. <b>animation 2d</b>. Ce qui est pour moi le seul véritable problème de ce package.</p>
+<p>En tant que dev/auto-didacte (la magie d'internet), ce qui fait la force de tout outil, c'est, 1, ça communauté, 2, ça documentation, 3, son accessibilité. Toutes ces informations/outils sont accessibles via n'importe quel moteur de recherche. Cette accessibilité dépends aussi de sont référencement. Et autant vous dire qu'avec un nom aussi basique… Sont accessibilité en prend un coup 😢.</p>
+<p>Pour les bases pas de package, il y a beaucoup de vidéo d'introduction réalisé par des youtubeur “célèbre” comme celle cis ou ce blog de Unity.</p>
+<p><a href="https://blogs.unity3d.com/2018/12/04/getting-started-with-2d-inverse-kinematics/" target="_blank">-&gt; Getting Started with 2D Inverse Kinematics2D インバースキネマティクススターティングガイド - Unity Technologies Blog</a></p>
+<p>Package == Librairie maintenant intégré officiellement par Unity (je crois)</p>
+<p>Plugin == Simple dossier provenant d'une source non reconnue</p>
+<p>Du coup, jusque-là, pas de soucis, mais lorsque l'on rentre en pratique, les problèmes émergent.  “Comment créer un squelette sans fichiers PSB (batch import)” par exemple et là, l'enfer sur terre. Le référencement bloque avec un nom aussi banal que “animation 2d”. Il est très difficile de trouver des réponses pertinentes simplement à cause d'un nom de package.
+</p>
+<figure class="tmblr-full" data-orig-height="312" data-orig-width="446"><img src="https://64.media.tumblr.com/cc3f9c3c5aef43f9c88edb7d99590d48/e578c86e1598c3f9-41/s540x810/f015cfe4bebb7518a19f8a585e756c372353c539.gif" alt="" data-orig-height="312" data-orig-width="446"></figure><iframe src="https://www.youtube.com/embed/UOd9EJweTQc?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&amp;wmode=opaque" allowfullscreen="" width="540" height="405" frameborder="0"></iframe><iframe src="https://www.youtube.com/embed/0jrncTM9ljw?feature=oembed&enablejsapi=1&origin=https://safe.txmblr.com&amp;wmode=opaque" allowfullscreen="" width="540" height="405" frameborder="0"></iframe><p>L'import PSB est assez génial d'ailleurs. Ça fait gager un temps infini ! Le format PSB est le format utilisé par Photoshop pour les documents vraiment lourd (1~3GB). Unity a intégré un outil pour ne plus avoir à organiser notre image une fois notre personnage fait (dessiné et calque superposé).</p>
+<p>Petit tip pour les utilisateurs d'Affinity qui n'a pas d'export psb (pas psd), simplement renommé votre fichier mon-fichier.psd → mon-fichier.psb.</p>
+<p><b>Drag and drop</b></p>
+<p>Je vous pose ça comme ça 🙂.</p>
+<p>Chaque objets doivent avoir un collider avec un RigidBody.</p>
+<pre><code>using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UIElements;
+
+public class DirectDragAndDrop : MonoBehaviour
+{    
+    private Vector3 mOffset;
+    private float mZCoord;
+    public bool x, y, z;
+    public GameObject alternativeTarget;
+    public bool enableLimits = true;
+    public Vector2 maxX, maxY;
+
+    private GameObject target;
+
+    private void Start()
+    {
+        if (alternativeTarget != null)
+        {
+            target = alternativeTarget;
+        }
+        else
+        {
+            target = gameObject;
+        }
+    }
+
+    void OnMouseDown()
+     {
+         mZCoord = Camera.main.WorldToScreenPoint(target.transform.position).z;
+
+         // Store offset = gameobject world pos - mouse world pos
+         mOffset = target.transform.position - GetMouseAsWorldPoint();
+     }
+
+    private void OnMouseUp()
+    {
+    }
+
+    private Vector3 GetMouseAsWorldPoint()
+     {
+         // Pixel coordinates of mouse (x,y)
+         Vector3 mousePoint = Input.mousePosition;
+
+         // z coordinate of game object on screen
+         mousePoint.z = mZCoord;
+
+         // Convert it to world points
+         return Camera.main.ScreenToWorldPoint(mousePoint);
+     }
+
+     void OnMouseDrag()
+     {
+         moveObject();
+     }
+
+     void moveObject()
+     {
+         if (enableLimits)
+         {
+             Vector3 mousePosition = GetMouseAsWorldPoint();
+             Vector3 final = new Vector3(x ? mousePosition.x : 0, y ? mousePosition.y : 0, z ? mousePosition.z : 0);
+             final += mOffset;
+
+             if (final.x &lt; maxX.x)
+             {
+                 final.x = maxX.x;
+             }
+             else if (final.x &gt; maxX.y)
+             {
+                 final.x = maxX.y;
+             }
+
+             if (final.z &lt; maxY.x)
+             {
+                 final.z = maxY.x;
+             }
+             else if (final.z &gt; maxY.y)
+             {
+                 final.z = maxY.y;
+             }
+             target.transform.position = final;
+         }
+         else
+         {
+             Vector3 mousePosition = GetMouseAsWorldPoint();
+             Vector3 final = new Vector3(x ? mousePosition.x : 0, y ? mousePosition.y : 0, z ? mousePosition.z : 0);
+
+             target.transform.position = final + mOffset;
+         }
+     }
+}
+</code></pre>
+<p><b>Trou dynamique</b></p>
+<p>Depuis très longtemps, j'essaie de m'introduire à la modification de model 3d en temps réel, comme le contrôle d'un trou dynamique, sans succès. C'était probablement le plus gros défi technique de cette jam. Depuis longtemps je ne trouvais pas d'exemple claire ou de tuto. La solution était pourtant ‘simple’ ( rappelez-vous l'accessibilité 😅 ), googler → “How to make Donut country”.</p>
+<p>Si les termes techniques vous sont inconnus, trouver un jeu qui utilise cette mécanique ~ technique ~ principe (ou la scène d'un jeu), il sera alors probablement le chemin le plus rapide pour trouver la solution a votre problème. En l'occurrence pour moi, ce fut ce jeu, Donut Country, qui base entièrement sont gameplay sur ce principe.</p>
+<p>La suite dans le prochain post ———————</p>
+
+      </article>
+
+      
+        <div class="blog-tags">
+          <span>Tags:</span>
+          
+            <a href="/tags#devlog">devlog</a>
+          
+            <a href="/tags#gamedev">gamedev</a>
+          
+            <a href="/tags#art%20game">art game</a>
+          
+            <a href="/tags#gamedevelopment">gamedevelopment</a>
+          
+        </div>
+      
+
+      
+
+      
+        <!-- Check if any share-links are active -->
+
+
+
+
+<section id="social-share-section">
+  <span class="sr-only">Share: </span>
+
+  
+    <a href="https://twitter.com/intent/tweet?text=Brume+VIgnette++-+Devlog+1%2F2&amp;url=%2F2020-07-24-brume-vignette-devlog-12%2F" class="btn btn-social-icon btn-twitter" title="Share on Twitter">
+      <span class="fab fa-fw fa-twitter" aria-hidden="true"></span>
+      <span class="sr-only">Twitter</span>
+    </a>
+  
+
+  
+
+  
+    <a href="https://www.linkedin.com/shareArticle?mini=true&url=%2F2020-07-24-brume-vignette-devlog-12%2F" class="btn btn-social-icon btn-linkedin" title="Share on LinkedIn">
+      <span class="fab fa-fw fa-linkedin" aria-hidden="true"></span>
+      <span class="sr-only">LinkedIn</span>
+    </a>
+  
+
+  
+
+  
+
+</section>
+
+
+
+      
+
+      <ul class="pagination blog-pager">
+        
+        <li class="page-item previous">
+          <a class="page-link" href="/2020-04-21-chez-maman-kim-devlog/" data-toggle="tooltip" data-placement="top" title="Chez maman Kim - Devlog">← Previous Post</a>
+        </li>
+        
+        
+        <li class="page-item next">
+          <a class="page-link" href="/2020-07-24-brume-vignette-devlog-22/" data-toggle="tooltip" data-placement="top" title="Brume Vignette - devlog 2/2">Next Post →</a>
+        </li>
+        
+      </ul>
+      
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+    <div class="commentbox"></div>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>commentBox('5735818605887488-proj')</script>
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+
+  <footer>
+  <div class="container-md beautiful-jekyll-footer">
+    <div class="row">
+      <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+      
+<ul class="list-inline text-center footer-links">
+<li class="list-inline-item">
+    <a href="mailto:piment" title="Email me">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Email me</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="/feed.xml" title="RSS">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">RSS</span>
+    </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://github.com/RobinMoretti" title="GitHub">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">GitHub</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://twitter.com/RobinMoretti" title="Twitter">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Twitter</span>
+   </a>
+  </li>
+<li class="list-inline-item">
+    <a href="https://discord.com/users/robin.moretti" title="Discord">
+      <span class="fa-stack fa-lg" aria-hidden="true">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fab fa-discord fa-stack-1x fa-inverse"></i>
+      </span>
+      <span class="sr-only">Discord</span>
+   </a>
+  </li>
+</ul>
+
+      
+      <p class="copyright text-muted">
+      
+        Robin Moretti
+         • 
+      
+      2023
+
+      
+         • 
+        <span class="author-site">
+          <a href="">blog.robinmoretti.eu</a>
+        </span>
+      
+
+      
+        
+           • 
+          <a href="http://matomo.robinmoretti.eu/index.php?module=CoreAdminHome&action=optOut" target="_blank" class="text_muted">Do-not-Track</a>
+        
+      
+
+      
+
+      </p>
+      <p class="theme-by text-muted">
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
+      </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+  
+    
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+
+  
+    
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+  
+
+
+
+  
+    <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
+    
+      <script src="/assets/js/beautifuljekyll.js"></script>
+    
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>
