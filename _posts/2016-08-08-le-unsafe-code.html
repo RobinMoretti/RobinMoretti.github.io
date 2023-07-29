@@ -1,0 +1,11 @@
+---
+layout: post
+title: Le “unsafe code”
+date: '2016-08-08T15:31:02+02:00'
+tags:
+- gamedev
+- frDev
+- unity3d
+tumblr_url: https://robinmoretti.tumblr.com/post/148639066503/le-unsafe-code
+---
+<p>Je viens de découvrir que sur unity<i><a href="https://fr.wikipedia.org/wiki/Pointeur_(programmation)" target="_blank"> les pointer</a>s</i> sont<b> fortement déconseillé </b>pour des problèmes de compatibilité entre les différentes plate-formes exportables, notamment de perdre tout possibilité d’export pour le <i>web player</i>. Pour pouvoir les utiliser, il faut déverrouiller le <i>“unsafe mode”</i> de unity (je flippe). Donc si dans mon cas, je veux que plusieurs objects (class) différent puissent pointer vers une seule variable et la modifier. J’ai lus quelque part qu’il y as une méthode <b><a href="http://en.cppreference.com/w/cpp/language/raii" target="_blank">RAII</a> </b>mais j’ai pas encore bien saisis le truc&hellip; Une suggestion ?</p>

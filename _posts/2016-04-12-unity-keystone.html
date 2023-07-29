@@ -1,0 +1,94 @@
+---
+layout: post
+title: Unity Keystone
+date: '2016-04-12T23:43:52+02:00'
+tags:
+- Unity3D
+- gamedev
+- programming
+- dev
+tumblr_url: https://robinmoretti.tumblr.com/post/142704166438/unity-keystone
+---
+<h2><b>Proto #1</b></h2><p>Le <i>render texture</i>, permet d’appliquer comme texture ce qu’une caméra voit, télévision, miroir, reflet etc&hellip; est devenu gratuit sur unity5! Hourra. <br/></p><p>J’ai commencé à créer un petit <i>Keystone</i> pour pouvoir <i>mapper</i> avec un projecteur des objet 3d animés sur des masques. Le code reste très simple, beaucoup de d’améliorations sont à envisager. Un petit soucis sur le shader de la surface qui reçoit la texture.</p><blockquote><p><i>Voir le code plus bas, et le problème de shader.</i></p></blockquote><figure data-orig-width="480" data-orig-height="430" class="tmblr-full"><img src="https://64.media.tumblr.com/f2ffc2c635da86b5915b5a867c3f6fd2/tumblr_inline_o5jib4SAED1snmja2_500.gif" data-orig-width="480" data-orig-height="430"/></figure><figure data-orig-width="480" data-orig-height="440" class="tmblr-full"><img src="https://64.media.tumblr.com/5421473b7b15367cec42ca49ce781cad/tumblr_inline_o5jibemcVw1snmja2_500.gif" data-orig-width="480" data-orig-height="440"/></figure><figure data-orig-width="1029" data-orig-height="682" class="tmblr-full"><img src="https://64.media.tumblr.com/e4ed0e926ac624b0a53ab77eb4366775/tumblr_inline_o5jibvQ1bq1snmja2_540.png" data-orig-width="1029" data-orig-height="682"/></figure><h2>Shader problème:</h2><figure data-orig-width="736" data-orig-height="310" class="tmblr-full"><img src="https://64.media.tumblr.com/5df133f28ba5a9a26bf2a702c3eedaec/tumblr_inline_o5jibwaS8L1snmja2_540.png" data-orig-width="736" data-orig-height="310"/></figure><figure data-orig-width="770" data-orig-height="618" class="tmblr-full"><img src="https://64.media.tumblr.com/c349052a4f74fb3cd3d50e2fdf3f8385/tumblr_inline_o5jibwKDRQ1snmja2_540.png" data-orig-width="770" data-orig-height="618"/></figure><figure data-orig-width="546" data-orig-height="524" class="tmblr-full"><img src="https://64.media.tumblr.com/aad2ef130099a20b5f3d743597e8a750/tumblr_inline_o5jibxCqp91snmja2_540.png" data-orig-width="546" data-orig-height="524"/></figure><h2>Code du quad qui reçoit la texture : </h2><blockquote><p><i>
+
+
+
+
+
+
+
+using UnityEngine;<br/>
+using System.Collections;<br/><br/>
+public class Keynote : MonoBehaviour {<br/>
+    <br/>
+    //Store un prefab, future Object visible pour le keystone<br/>
+    public GameObject CornerCtrl;<br/><br/>
+    //liste de stockage pour les Controls<br/>
+    public GameObject[] Ctrls;<br/><br/>
+    //Mesh que l'on desire modifier<br/>
+    Mesh rectMesh;<br/><br/>
+    //store le nom du des CornerCtrl cliqué<br/>
+    public string MouseOverObject = &quot;&ldquo;;<br/><br/>
+    void Start () {<br/>
+        Ctrls = new GameObject[4];<br/>
+        rectMesh = GetComponent&lt;MeshFilter&gt; ().mesh;<br/><br/>
+        for (int i = 0; i &lt; rectMesh.vertexCount; i++) {<br/>
+            GameObject myCtrl = CornerCtrl;    <br/>
+            Ctrls [i] = (GameObject)Instantiate(myCtrl, new Vector3(rectMesh.vertices[i].x, rectMesh.vertices[i].y, rectMesh.vertices[i].z), Quaternion.Euler(0,0,0))    ;<br/>
+            Ctrls [i].name = &quot;Ctrl&quot; + i;<br/>
+            Ctrls [i].GetComponent&lt;returnMousePressed&gt; ().target = this.gameObject;<br/>
+        }<br/>
+    }<br/><br/><br/>
+    void Update () {<br/>
+        if(Input.GetKey(KeyCode.RightArrow)){<br/>
+            GameObject.Find (MouseOverObject).transform.position -= Vector3.right;<br/>
+            updatePositionOfVertices();<br/>
+        } else if(Input.GetKey(KeyCode.LeftArrow)){<br/>
+            GameObject.Find (MouseOverObject).transform.position += Vector3.right;<br/>
+            updatePositionOfVertices();<br/>
+        } else if(Input.GetKey(KeyCode.UpArrow)){<br/>
+            GameObject.Find (MouseOverObject).transform.position += Vector3.up;<br/>
+            updatePositionOfVertices();<br/>
+        } else if(Input.GetKey(KeyCode.DownArrow)){<br/>
+            GameObject.Find (MouseOverObject).transform.position -= Vector3.up;<br/>
+            updatePositionOfVertices();<br/>
+        } else if(Input.GetKey(KeyCode.RightShift)){<br/>
+            GameObject.Find (MouseOverObject).transform.position += Vector3.back;<br/>
+            updatePositionOfVertices();<br/>
+        } else if(Input.GetKey(KeyCode.RightAlt)){<br/>
+            GameObject.Find (MouseOverObject).transform.position -= Vector3.back;<br/>
+            updatePositionOfVertices();<br/>
+        }<br/>
+    }<br/><br/><br/>
+    void updatePositionOfVertices(){<br/>
+        Vector3[] vertices = rectMesh.vertices;<br/>
+        for (int i = 0; i &lt; Ctrls.Length; i++) {<br/>
+            vertices[i] = GameObject.Find(&quot;Ctrl&rdquo;+i).transform.position;<br/>
+        }<br/>
+        rectMesh.vertices = vertices;<br/>
+        rectMesh.RecalculateBounds();<br/>
+    }<br/><br/>
+}<br/></i>
+
+
+<br/></p></blockquote><h2>Crée un prefab et appliqué ce script:</h2><blockquote><p><i>
+
+
+
+
+
+
+
+using UnityEngine;<br/>
+using System.Collections;<br/><br/>
+public class returnMousePressed : MonoBehaviour {<br/>
+    //retourne mon nom au keystone lorsque je sui cliqué<br/>
+    public GameObject target;<br/>
+    void update(){<br/>
+    }<br/>
+    void OnMouseOver() {<br/>
+        if (Input.GetMouseButtonDown (0)) {<br/>
+            target.GetComponent&lt;Keynote&gt; ().MouseOverObject = name;<br/>
+        }<br/>
+    }<br/>
+}</i><br/><br/></p></blockquote>
