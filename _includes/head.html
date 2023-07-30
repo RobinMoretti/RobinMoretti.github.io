@@ -97,6 +97,8 @@
       {%- endif -%}
     {%- elsif page.thumbnail-img -%}
       {{ page.thumbnail-img }}
+    {%- elsif site.social-image -%}
+      {{ site.social-image }}
     {%- elsif site.avatar -%}
       {{ site.avatar }}
     {% endif %}
@@ -107,7 +109,7 @@
   <meta property="og:description" content="{{ description }}">
 
   {% if img != "" %}
-  <meta property="og:image" content="{{ img | social-image }}">
+  <meta property="og:image" content="{{ img | absolute_url }}">
   {% endif %}
 
   {% if page.id %}
