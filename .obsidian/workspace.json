@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md"
+                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md"
               }
             }
           }
@@ -138,6 +138,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Ouvrir le sélecteur rapide": false,
       "graph:Ouvrir la vue graphique": false,
       "canvas:Créer une nouvelle toile": false,
@@ -148,22 +149,29 @@
   },
   "active": "105ee205fe4fc297",
   "lastOpenFiles": [
-    "assets/videos/IMG_2620.mov",
-    "assets/videos/IMG_2322.mov",
-    "assets/videos/IMG_1981.mov",
-    "assets/videos/IMG_2320.mov",
-    "assets/videos/IMG_1894.mov",
-    "assets/videos/IMG_1593.mov",
-    "assets/videos/IMG_1570.mov",
+    "_posts/2023-06-27-log-6.md",
+    "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
+    "assets/img/bgimage.png",
+    "assets/img/thumb.png",
+    "assets/img/path.jpg",
+    "assets/img/crepe.jpg",
+    "assets/img/avatar-icon.jpg",
+    "assets/img/avatar-icon.png",
+    "assets/img/404-southpark.jpg",
+    "assets/videos/2023-06-27-log-6/IMG_1570.mov",
+    "assets/videos/2023-06-27-log-6",
+    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete - Copie.md",
+    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
+    "_posts/2020-02-28-sample-markdown-to-delete.md",
+    "assets/videos/2023-06-27-log-6/IMG_2620.mov",
+    "assets/videos/2023-06-27-log-6/IMG_2322.mov",
+    "assets/videos/2023-06-27-log-6/IMG_1981.mov",
+    "assets/videos/2023-06-27-log-6/IMG_2320.mov",
+    "assets/videos/2023-06-27-log-6/IMG_1894.mov",
+    "assets/videos/2023-06-27-log-6/IMG_1593.mov",
     "assets/videos",
     "_posts/2023-06-27-log-6/IMG_1570.mp4",
-    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
-    "_posts/2023-06-27-log-6.md",
-    "_posts/2020-02-26-flake-it-till-you-make-it-to-delete - Copie.md",
-    "_posts/2020-02-28-sample-markdown-to-delete.md",
-    "_posts/2023-06-27-log-6/IMG_1570.mov",
     "Log.md",
-    "_posts/2023-06-27-log-6/IMG_2620.mov",
     "aboutme.md"
   ]
 }
