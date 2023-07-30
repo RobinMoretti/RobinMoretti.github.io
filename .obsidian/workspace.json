@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a3afe57fd195e3a7",
+        "id": "dab94912cdd9627a",
         "type": "tabs",
         "children": [
           {
-            "id": "105ee205fe4fc297",
+            "id": "df131a4fd6e5eab9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-02-01-log-5.md",
+                "file": "_posts/2021-12-12-brick-breacker-log-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-02-01-log-5.md",
+                "file": "_posts/2021-12-12-brick-breacker-log-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-02-01-log-5.md",
+                "file": "_posts/2021-12-12-brick-breacker-log-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-02-01-log-5.md"
+                "file": "_posts/2021-12-12-brick-breacker-log-1.md"
               }
             }
           },
@@ -155,35 +155,40 @@
       "command-palette:Ouvrir la palette de commandes": false
     }
   },
-  "active": "105ee205fe4fc297",
+  "active": "df131a4fd6e5eab9",
   "lastOpenFiles": [
-    "_posts/2023-06-27-log-6.md",
-    "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
     "_posts/2022-02-01-log-5.md",
+    "_posts/2021-12-12-brick-breacker-log-1.md",
+    "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/PreviewUI.mov",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/PreveiwVector.mp4",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/niveau-4.png",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/Niveau-2.png",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/Niveau-1.png",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1/Drag1.gif",
+    "assets/postsAssets/2021-12-12-brick-breaker-log-1",
+    "_posts/2022-04-22-newtro-publication.md",
+    "_posts/2023-06-27-log-6.md",
+    "assets/assetsPosts/2022-04-22-newtro-publication/Capture_decran_2022-04-26_a_15.08.36.jpg(1).png.md",
+    "assets/assetsPosts/2022-04-22-newtro-publication",
+    "assets/assetsPosts",
+    "assets/postsAssets/2022-04-22-newtro-publication/Timeline_1.mov",
+    "assets/postsAssets/2022-04-22-newtro-publication/Capture_decran_2022-04-26_a_15.08.36.jpg(1).png",
+    "assets/postsAssets/2022-04-22-newtro-publication",
+    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/2022-04-22-newtro-publication/Capture_decran_2022-04-26_a_15.08.36.jpg(1).png",
+    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/2022-04-22-newtro-publication/Timeline_1.mov",
+    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/2022-04-22-newtro-publication",
+    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/2022-04-22-newtro-publication.md",
+    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/newtro-publication.md",
+    "assets/postsAssets/2022-02-01-log-5/267675047_3202258926696581_2837748512440686046_n.mp4",
     "assets/img/avatar-icon.png",
     "assets/img/Titre_Carré_.png",
     "Log 1.md",
     "Log.md",
     "assets/postsAssets/2022-02-01-log-5/pangpang5.gif",
     "assets/postsAssets/2022-02-01-log-5/Illustration_sans_titre_3(1).png",
-    "assets/postsAssets/2022-02-01-log-5/demoBitsy3D.gif",
-    "assets/postsAssets/2022-02-01-log-5/Illustration_sans_titre.png",
-    "assets/postsAssets/2022-02-01-log-5/Capture_dcran_2022-01-30_022142.png",
-    "assets/postsAssets/2022-02-01-log-5/270471571_501389224547815_1134125144303800403_n.jpg",
-    "assets/postsAssets/2022-02-01-log-5/267675047_3202258926696581_2837748512440686046_n.mp4",
-    "assets/postsAssets/2022-02-01-log-5",
-    "assets/postsAssets",
-    "assets/Nouveau dossier",
-    "assets/2022-02-01-log-5/pangpang5.gif",
-    "assets/2022-02-01-log-5/Illustration_sans_titre_3(1).png",
-    "assets/2022-02-01-log-5/267675047_3202258926696581_2837748512440686046_n.mp4",
-    "assets/2022-02-01-log-5",
-    "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/2022-02-01-log-5/267675047_3202258926696581_2837748512440686046_n.mp4",
-    "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/2022-02-01-log-5",
     "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/2022-02-01-log-5.md",
-    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/Newtro - Publication IOS Android 632273b0283e47069fb93f91ecfcf7c1/Timeline_1.mov",
     "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/Newtro - Publication IOS Android 632273b0283e47069fb93f91ecfcf7c1.md",
-    "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/Newtro - Publication IOS Android 632273b0283e47069fb93f91ecfcf7c1",
     "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/Log #5 fb4e6e260e09419db941ade7d89c5cab.md",
     "_posts/2020-02-26-flake-it-till-you-make-it-to-delete - Copie.md",
     "_posts/2020-02-26-flake-it-till-you-make-it-to-delete.md",
