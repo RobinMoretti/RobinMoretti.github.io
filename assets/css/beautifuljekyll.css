@@ -54,7 +54,7 @@ a:focus {
   color: {{ site.hover-col | default: "#0085A1" }};
 }
 blockquote {
-  color: #808080;
+  color: #1f1f1f;
   font-style: italic;
 }
 blockquote p:first-child {
@@ -632,6 +632,7 @@ footer .footer-custom-content {
 
 .intro-header {
   margin: 5rem 0 1.25rem;
+  margin-bottom: 0;
   position: relative;
 }
 .intro-header.big-img {
@@ -669,8 +670,10 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
 .intro-header.big-img .page-heading,
 .intro-header.big-img .post-heading {
   padding: 6.25rem 0;
-  color: #FFF;
-  text-shadow: 1px 1px 3px #000;
+  /* color: #FFF;
+  text-shadow: 1px 1px 3px #000; */
+  color: #FE6262!important;
+  text-shadow: unset !important;
 }
 .intro-header .page-heading h1 {
   position: absolute;
@@ -706,7 +709,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   -moz-box-shadow: 1px 1px 3px #000;
 }
 .intro-header.big-img .post-heading .post-meta {
-  color: #EEE;
+  color: #130707;
 }
 .intro-header.big-img .img-desc {
   background: rgba(30, 30, 30, 0.6);
@@ -714,6 +717,7 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   padding: 0.3125rem 0.625rem;
   font-size: 0.6875rem;
   color: #EEE;
+  color: #333333;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   right: 0;
   bottom: 0;
@@ -730,9 +734,22 @@ nav.top-nav-short-permanent ~ header > .intro-header.big-img {
   .intro-header.big-img .post-heading {
     padding: 9.375rem 0;
   }
-  .intro-header .page-heading h1 {
+  
+  .intro-header.big-img .post-heading {
+    padding: 3.375rem 0 !important;  
+  }
+  .intro-header.big-img .post-heading h1 {
+    position: unset !important;
+    left: unset !important; 
+    color: #FE6262!important;
+    text-shadow: unset !important;
+    
+    /* position: unset !important; */
+  }
+  .intro-header .post-heading h1 {
     font-size: 5rem;
   }
+
   .intro-header .post-heading h1 {
     font-size: 3.125rem;
   }
