@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Guide du nouveau joueur hipster qui n’aime pas les geeks, les batards
-subtitle: 22 avril 2022
+title: Guide du nouveau joueur
+subtitle: pour le hipster qui n’aime pas les geeks, les batards
 tags: [JV]
 comments: true
 ---
