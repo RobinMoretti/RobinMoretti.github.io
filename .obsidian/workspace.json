@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
+                "file": "_posts/2023-06-27-log-6.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
+                "file": "_posts/2023-06-27-log-6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
+                "file": "_posts/2023-06-27-log-6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md"
+                "file": "_posts/2023-06-27-log-6.md"
               }
             }
           },
@@ -157,9 +157,10 @@
   },
   "active": "df131a4fd6e5eab9",
   "lastOpenFiles": [
+    "assets/img/image.jpg",
+    "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
     "_posts/2021-12-12-brick-breacker-log-1.md",
     "_posts/2022-02-01-log-5.md",
-    "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/PreviewUI.mov",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/PreveiwVector.mp4",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/niveau-4.png",
