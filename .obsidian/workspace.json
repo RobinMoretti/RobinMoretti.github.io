@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "aboutme.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "aboutme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md",
+                "file": "aboutme.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-06-27-log-6.md"
+                "file": "aboutme.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "df131a4fd6e5eab9",
   "lastOpenFiles": [
+    "_posts/2023-06-27-log-6.md",
     "assets/img/image.jpg",
     "_posts/2022-04-22-guide-du-nouveau-joueur-hipster.md",
     "_posts/2021-12-12-brick-breacker-log-1.md",
@@ -169,7 +170,6 @@
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/Drag1.gif",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1",
     "_posts/2022-04-22-newtro-publication.md",
-    "_posts/2023-06-27-log-6.md",
     "assets/assetsPosts/2022-04-22-newtro-publication/Capture_decran_2022-04-26_a_15.08.36.jpg(1).png.md",
     "assets/assetsPosts/2022-04-22-newtro-publication",
     "assets/assetsPosts",
@@ -187,7 +187,6 @@
     "Log 1.md",
     "Log.md",
     "assets/postsAssets/2022-02-01-log-5/pangpang5.gif",
-    "assets/postsAssets/2022-02-01-log-5/Illustration_sans_titre_3(1).png",
     "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/2022-02-01-log-5.md",
     "_posts/1d684102-8122-42b7-9734-de0b56500ab0_Export-f1984915-8b7d-4007-8b04-e861b63d4a39/Newtro - Publication IOS Android 632273b0283e47069fb93f91ecfcf7c1.md",
     "_posts/98c8ae3f-10a4-4cf0-a658-1d6237505acb_Export-9c0074cd-f476-4927-b0f8-78143eea43be/Log #5 fb4e6e260e09419db941ade7d89c5cab.md",

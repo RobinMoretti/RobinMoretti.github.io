@@ -1,16 +1,10 @@
 ---
 layout: page
-title: About me
+title: À propos
 subtitle: Why you'd want to go on a date with me
 ---
 
-Robin
-
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+- Artiste créateur de jeux quand j'ai le temps et l'argent depuis 2016
+- Enseignant à l'ESAD d'Orléans depuis septembre 2022
+- Mentor chez Open Class Room depuis 2017
+- Développeur freelance depuis 2015
