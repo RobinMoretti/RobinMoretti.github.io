@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_posts/2023-07-31-signets-1-X.md",
+                "file": "_posts/test.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_posts/2023-07-31-signets-1-X.md",
+                "file": "_posts/test.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_posts/2023-07-31-signets-1-X.md",
+                "file": "_posts/test.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_posts/2023-07-31-signets-1-X.md"
+                "file": "_posts/test.md"
               }
             }
           },
@@ -157,8 +157,9 @@
   },
   "active": "df131a4fd6e5eab9",
   "lastOpenFiles": [
-    "_posts/2023-06-27-log-6.md",
     "_posts/2023-07-31-signets-1-X.md",
+    "_posts/test.md",
+    "_posts/2023-06-27-log-6.md",
     "aboutme.md",
     "_posts/MarsSurvival/style.scss",
     "_posts/MarsSurvival/rollup.config.mjs",
@@ -195,7 +196,6 @@
     "_posts/MarsSurvival/node_modules/immutable/README.md",
     "_posts/MarsSurvival/node_modules/glob-parent/README.md",
     "_posts/MarsSurvival/node_modules/glob-parent/CHANGELOG.md",
-    "_posts/MarsSurvival/node_modules/fill-range/README.md",
     "assets/img/image.jpg",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/niveau-4.png",
     "assets/postsAssets/2021-12-12-brick-breaker-log-1/Niveau-2.png",
