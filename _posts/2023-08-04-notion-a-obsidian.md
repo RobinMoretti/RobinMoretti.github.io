@@ -4,7 +4,7 @@ title: Adieu Notion, bonjour Obsidian
 subtitle: Pour un environnement d'écriture plus sain
 tags: [knowledge, écriture, dev, blogging]
 comments: true
-img-cover: ../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
+cover-img: ../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
 ---
 
 Depuis longtemps, je suis à la recherche d'une solution d'écriture flexible: pour prendre des notes, trier mes ressources, documenter et gérer mes projets, blogger etc. J'ai abordé cette problématique de nombreuse manière et on peut dire sans trembler que Notion est une solution intéressante. Toutefois, aujourd'hui, je vais vous présenter une alternative.
