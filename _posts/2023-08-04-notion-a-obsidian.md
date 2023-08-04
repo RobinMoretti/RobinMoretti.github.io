@@ -4,7 +4,7 @@ title: Adieu Notion, bonjour Obsidian
 subtitle: Pour un environnement d'écriture plus sain
 tags: [knowledge, écriture, dev, blogging]
 comments: true
-cover-img: ../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
+cover-img: https://blog.robinmoretti.eu/assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
 ---
 ![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg)
 
