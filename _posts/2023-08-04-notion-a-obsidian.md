@@ -30,9 +30,8 @@ Je souhaite donc migrer vers une nouvelle manière de travailler et je pense avo
 
 > ⚡ À première vu, je vous propose quelque chose de plus complexe qu'un simple logiciel, mais attendez un peu ! Il s'agit plutôt de combiner plusieurs outils et de remplacer l'application Notion par un environnement de travail.
 
-#### Type de fichier : MarkDown
+##### Type de fichier : MarkDown
 Le [Markdown](https://fr.wikipedia.org/wiki/Markdown) est un langage de balisage léger. Les fichiers Markdown ont pour extension <u>.md</u>. Le Markdown nous permet d'écrire du texte sans l'aide d'un éditeur ou d'un logiciel particulier, comme dans un fichier <u>.txt</u>. L'un de ses avantages est sa légèreté d'utilisation, car il ne requiert pas d'outils spécifiques, et sa compatibilité avec de nombreux supports. Le Markdown est largement utilisé sur le web, les applications, les blogs, les messageries, etc. De plus, il est très facile de migrer d'un outil à un autre si nécessaire. De manière générale, le Markdown nous permet de réaliser tout ce qu'un éditeur de texte avancé peut nous offrir.
-
 
 Exemple de mark down sans rendu : 
 ```
@@ -69,11 +68,9 @@ Il a une logique un peu particulière en termes d'organisation de dossier. Tous 
 De base, Obsidian ne gère que le Markdown, c'est assez maigre par rapport à ce que Notion propose. Un autre gros atout d'Obsidian, c'est sa communauté. Il existe un grand nombre de plugins qui permettent d'augmenter les fonctionnalités du logiciel et n'importe qui peut en développer de nouveaux. Et il y a des choses assez incroyables qui se rapprochent énormément de Notion : calendrier, Kanban, IA, base de données, etc.!
 
 Exemple de formatage graphique du markdown :
-
 ![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md.jpg)
 
 Exemple de structuration de fichiers, dans Obsydian et dans un explorateur de fichier :
-
 ![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md2.jpg)
 ### Synchronisation ou versionning avec Git
 
@@ -96,24 +93,24 @@ Dossier local -> géré par Obsidian -> Push sur un repo GitHub -> Déploiement 
 Pour terminer, je vais lister les plus et les moins de ce workflow. 
 ### 😍 :
 - Adaptabilité 
-	Je pense que ce workflow peut gérer tout type de document, qu'il s'agisse de gestion de projet, de blog, de listes de ressources, etc.
+	> Je pense que ce workflow peut gérer tout type de document, qu'il s'agisse de gestion de projet, de blog, de listes de ressources, etc.
 - Décentralisation 
-	`Un coffre/dossier racine == un projet` Tout n'est pas centralisé dans un logiciel qui rend les choses opaques. Chaque projet peut contenir son propre "coffre-fort" dédié, ce qui évite de tout mélanger.
+	> `Un coffre/dossier racine == un projet` Tout n'est pas centralisé dans un logiciel qui rend les choses opaques. Chaque projet peut contenir son propre "coffre-fort" dédié, ce qui évite de tout mélanger.
 - Accessibilité 
-	J'ai accès à mes fichiers même hors connexion.
+	> J'ai accès à mes fichiers même hors connexion.
 - Simplicité d'accès 
-	N'importe qui peut utiliser n'importe quel logiciel pour éditer ces markdowns sans casser le système. Il n'est pas nécessaire de contraindre mes collaborateurs à un logiciel particulier.
+	> N'importe qui peut utiliser n'importe quel logiciel pour éditer ces markdowns sans casser le système. Il n'est pas nécessaire de contraindre mes collaborateurs à un logiciel particulier.
 - Compatibilité 
-	Un nombre incalculable d'outils est compatible avec le markdown, même sur le web. Même WhatsApp est compatible. 
+	> Un nombre incalculable d'outils est compatible avec le markdown, même sur le web. Même WhatsApp est compatible. 
 	![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/whatsapp.png)
 - Léger en ressources
-	Méthodologie compatible avec un grille pain 🍞 🤖
+	> Méthodologie compatible avec un grille pain 🍞 🤖
 
 ### 😥 :
 - sans sync, l'écritures collaborative reste complexe
-	À moins que vous ne testiez d'autres solutions, la gestion de version avec Git n'est pas faite pour tout le monde. Même si je ne comprends pas pourquoi les écrivains ne s'y mettent pas…
+	> À moins que vous ne testiez d'autres solutions, la gestion de version avec Git n'est pas faite pour tout le monde. Même si je ne comprends pas pourquoi les écrivains ne s'y mettent pas…
 - Bidouille
-	Ce n'est pas une solution clé en main, cela demande pas mal d'efforts mais j'ai travaillé de cette façon pendant deux semaines et je dois dire que c'est très satisfaisant.
+	> Ce n'est pas une solution clé en main, cela demande pas mal d'efforts mais j'ai travaillé de cette façon pendant deux semaines et je dois dire que c'est très satisfaisant.
 
 
 Si vous avez des questions, n'hésitez pas ! 
