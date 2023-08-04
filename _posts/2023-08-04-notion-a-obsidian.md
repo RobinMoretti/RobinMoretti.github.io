@@ -69,18 +69,18 @@ De base, Obsidian ne gère que le Markdown, c'est assez maigre par rapport à ce
 
 Exemple de formatage graphique du markdown :
 
-![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md.jpg)
+![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md.jpg)
 
 Exemple de structuration de fichiers, dans Obsydian et dans un explorateur de fichier :
 
-![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md2.jpg)
+![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md2.jpg)
 ### Synchronisation ou versionning avec Git
 
 Obsidian intègre un outil pour stocker notre dossier dans le cloud moyennant paiement. Par défaut, tout est en local et pas de cloud. **MAIS**, étant donné que la base est un simple dossier, nous pouvons utiliser ce dossier comme un repo Git et versionner tout son contenu pour le sauvegarder, le partager entre différents périphériques et même collaborer à plusieurs. On pourrait même imaginer utiliser d'autre outils, comme Dropbox par exemple
 
 Il existe un plugin Git qui permet de gérer cela facilement à l'intérieur d'Obsidian et de ne pas avoir à passer par un terminal. Nous pouvons même l'utiliser pour faire des sauvegardes automatiques toutes les X minutes, trés confortable.
 
-![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/git-preview.mkv)
+![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/git-preview.mkv)
 
 ### Blogging avec Jekyll
 
@@ -104,7 +104,7 @@ Pour terminer, je vais lister les plus et les moins de ce workflow.
 	N'importe qui peut utiliser n'importe quel logiciel pour éditer ces markdowns sans casser le système. Il n'est pas nécessaire de contraindre mes collaborateurs à un logiciel particulier.
 - Compatibilité 
 	Un nombre incalculable d'outils est compatible avec le markdown, même sur le web. Même WhatsApp est compatible. 
-	![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/whatsapp.png)
+	![](../assets/postsAssets/2023-08-04-notion-a-obsidian-assets/whatsapp.png)
 - Léger en ressources
 	Méthodologie compatible avec un grille pain 🍞 🤖
 
