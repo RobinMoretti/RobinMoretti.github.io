@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adieu Notion, bonjour Obsidian
-subtitle: Sélection de signets Xwitter
+subtitle: Pour un environnement d'écriture plus sain
 tags: [knowledge, écriture, dev, blogging]
 comments: true
 img-cover: assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
