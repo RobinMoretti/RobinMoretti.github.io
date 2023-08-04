@@ -13,16 +13,16 @@ Depuis longtemps, je suis à la recherche d'une solution d'écriture flexible: p
 Notion est un très bon outil, cet article n'est pas là pour dire le contraire. Ils innovent à fond avec un design de qualité, rein à dire. Mais j'y vois plusieurs problèmes aujourd'hui :
 
 - Dépendence technologique
-- Le prix 
+- Le prix   
 	d'environ 5 euros + 10 euros d'IA par mois.
 - Le stockage des données tout en cloud
-	sans internet, il n'y a pas d'accès aux données.
+	sans internet, il n'y a pas d'accès aux données.  
 - L'export en PDF et en Markdown n'est pas terrible.
-- L'outil est complexe
-	il est difficile de demander à des gens non technophiles de l'utiliser.
-- Donnée difficielement accessible.
+- L'outil est complexe  
+	il est difficile de demander à des gens non technophiles de l'utiliser. 
+- Donnée difficilement accessible.
 - Opaque
-- Trop centraliser
+- Trop centraliser  
 	Obligation de séparer la documentation d'un projet locale
 
 Je souhaite donc migrer vers une nouvelle manière de travailler et je pense avoirs trouver une solution interessante que vous partage ici.
