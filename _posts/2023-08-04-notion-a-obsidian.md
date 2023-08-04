@@ -27,7 +27,8 @@ Notion est un très bon outil, cet article n'est pas là pour dire le contraire.
 Je souhaite donc migrer vers une nouvelle manière de travailler et je pense avoirs trouver une solution interessante que vous partage ici.
 ## Mark down && Obsidian && Git && Jekyll
 
-	⚡ À première vu, je vous propose quelque chose de plus complexe qu'un simple logiciel, mais attendez un peu ! Il s'agit plutôt de combiner plusieurs outils et de remplacer l'application Notion par un environnement de travail.
+> ⚡ À première vu, je vous propose quelque chose de plus complexe qu'un simple logiciel, mais attendez un peu ! Il s'agit plutôt de combiner plusieurs outils et de remplacer l'application Notion par un environnement de travail.
+
 #### Type de fichier : MarkDown
 Le [Markdown](https://fr.wikipedia.org/wiki/Markdown) est un langage de balisage léger. Les fichiers Markdown ont pour extension <u>.md</u>. Le Markdown nous permet d'écrire du texte sans l'aide d'un éditeur ou d'un logiciel particulier, comme dans un fichier <u>.txt</u>. L'un de ses avantages est sa légèreté d'utilisation, car il ne requiert pas d'outils spécifiques, et sa compatibilité avec de nombreux supports. Le Markdown est largement utilisé sur le web, les applications, les blogs, les messageries, etc. De plus, il est très facile de migrer d'un outil à un autre si nécessaire. De manière générale, le Markdown nous permet de réaliser tout ce qu'un éditeur de texte avancé peut nous offrir.
 
