@@ -1,0 +1,3 @@
+- [ ] Améliorer le feed rss pour qu'il fonctionne mieux pour les agrégateurs
+- [ ] Améliorer Open graph pour twitter (rien ne sort en partage d'article)
+- [ ] améliorer le about me
