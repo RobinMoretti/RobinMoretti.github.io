@@ -4,7 +4,7 @@ title: Adieu Notion, bonjour Obsidian
 subtitle: Sélection de signets Xwitter
 tags: [knowledge, écriture, dev, blogging]
 comments: true
-img-cover: _posts/2023-08-04/2023-08-04-notion-a-obsidian-assets/header.jpg
+img-cover: assets/postsAssets/2023-08-04-notion-a-obsidian-assets/header.jpg
 ---
 
 Depuis longtemps, je suis à la recherche d'une solution d'écriture flexible: pour prendre des notes, trier mes ressources, documenter et gérer mes projets, blogger etc. J'ai abordé cette problématique de nombreuse manière et on peut dire sans trembler que Notion est une solution intéressante. Toutefois, aujourd'hui, je vais vous présenter une alternative.
@@ -64,20 +64,22 @@ laticem umente, in gerunt quid caelum optato ira, est.
 
 Il a une logique un peu particulière en termes d'organisation de dossier. Tous les fichiers créés sont contenus dans un "vault", un coffre en français, qui est l'équivalent du dossier racine. À chaque nouvelle note, Obsidian créé un nouveau fichier `.md` et l'ajoute dans le dossier choisi. En réalité, Obsidian gère simplement un dossier avec de simples fichiers `.md`, puis les rends visible via son interface. Ce dossier est comme un autre sur votre machine (peu importe le système), à l'emplacement que l'on souhaite, et c'est la raison principale qui, à mon avis, rend ce **workflow HYPER versatile.**
 
-De base, Obsidian ne gère que le Markdown, c'est assez maigre par rapport à ce que Notion propose. Un autre gros atout d'Obsidian, c'est sa communauté. Il existe un grand nombre de plugins qui permettent d'augmenter les fonctionnalités du logiciel et n'importe qui peut en développer de nouveaux. Et il y a des choses assez incroyables qui se rapprochent énormément de Notion : calendrier, Kanban, IA, base de données, etc.
+De base, Obsidian ne gère que le Markdown, c'est assez maigre par rapport à ce que Notion propose. Un autre gros atout d'Obsidian, c'est sa communauté. Il existe un grand nombre de plugins qui permettent d'augmenter les fonctionnalités du logiciel et n'importe qui peut en développer de nouveaux. Et il y a des choses assez incroyables qui se rapprochent énormément de Notion : calendrier, Kanban, IA, base de données, etc.!
 
 Exemple de formatage graphique du markdown :
-![](md.jpg)
+
+![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md.jpg)
 
 Exemple de structuration de fichiers, dans Obsydian et dans un explorateur de fichier :
-![](md2.jpg)
+
+![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/md2.jpg)
 ### Synchronisation ou versionning avec Git
 
 Obsidian intègre un outil pour stocker notre dossier dans le cloud moyennant paiement. Par défaut, tout est en local et pas de cloud. **MAIS**, étant donné que la base est un simple dossier, nous pouvons utiliser ce dossier comme un repo Git et versionner tout son contenu pour le sauvegarder, le partager entre différents périphériques et même collaborer à plusieurs. On pourrait même imaginer utiliser d'autre outils, comme Dropbox par exemple
 
 Il existe un plugin Git qui permet de gérer cela facilement à l'intérieur d'Obsidian et de ne pas avoir à passer par un terminal. Nous pouvons même l'utiliser pour faire des sauvegardes automatiques toutes les X minutes, trés confortable.
 
-![](git-preview.mkv)
+![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/git-preview.mkv)
 
 ### Blogging avec Jekyll
 
@@ -100,7 +102,8 @@ Pour terminer, je vais lister les plus et les moins de ce workflow.
 - Simplicité d'accès 
 	N'importe qui peut utiliser n'importe quel logiciel pour éditer ces markdowns sans casser le système. Il n'est pas nécessaire de contraindre mes collaborateurs à un logiciel particulier.
 - Compatibilité 
-	Un nombre incalculable d'outils est compatible avec le markdown, même sur le web. Même WhatsApp est compatible.![](Pasted%20image%2020230804151726.png)
+	Un nombre incalculable d'outils est compatible avec le markdown, même sur le web. Même WhatsApp est compatible. 
+	![](assets/postsAssets/2023-08-04-notion-a-obsidian-assets/whatsapp.png)
 - Léger en ressources
 	Méthodologie compatible avec un grille pain 🍞 🤖
 
@@ -116,7 +119,7 @@ Bye
 
 
 #### Quelques resources supplémentaires, des plugins cool :
-- https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/
-- https://github.com/lynchjames/obsidian-day-planner
-- https://github.com/tgrosinger/advanced-tables-obsidian
+- [https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/](https://obsidian.rocks/dataview-in-obsidian-a-beginners-guide/)
+- [https://github.com/lynchjames/obsidian-day-planner](https://github.com/lynchjames/obsidian-day-planner)
+- [https://github.com/tgrosinger/advanced-tables-obsidian](https://github.com/tgrosinger/advanced-tables-obsidian)
 
