@@ -1,10 +1,11 @@
 ---
 layout: post
-title: Xignets 4
-subtitle: Sélection de signets Xwitter
-tags: [knowledge, social, gamedev, X]
+title: VueJs feat PaperJS
+subtitle: dessin vectoriel
+tags:
+  - webDev
 comments: true
-cover-img: assets/postsAssets/2023-08-05-signets-4-X/Header.jpg
+cover-img:
 ---
 PaperJS est une excellente bibliothèque, équivalente à p5.js, axée sur les vecteurs. Voici un petit exemple d'intégration de cet outil dans un composant VueJS 3.
 
