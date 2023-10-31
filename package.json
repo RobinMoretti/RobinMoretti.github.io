@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "postcss-custom-properties": "^13.3.2"
+  }
+}

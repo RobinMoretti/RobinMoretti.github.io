@@ -993,6 +993,18 @@ pre {
 }
 
 /* --- Misc blog post styles --- */
+@media (min-width: 700px) { 
+  .blog-post > p{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .blog-post > p .media{
+    flex-basis: 100%;
+    width: 30%;
+  }
+}
 
 .blog-post :first-child {
   margin-top: 0;
@@ -1003,7 +1015,7 @@ pre {
 }
 
 .blog-post video {
-  max-width: 100vw;
+  max-width: 100% !important;
   max-height: 70vh;
   margin-bottom: 15px;
 }
