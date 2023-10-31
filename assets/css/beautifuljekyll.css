@@ -994,13 +994,13 @@ pre {
 
 /* --- Misc blog post styles --- */
 @media (min-width: 700px) { 
-  .blog-post > p{
+  .blog-post > .flex-container{
     display: flex;
     justify-content: center;
     gap: 20px;
   }
 
-  .blog-post > p .media{
+  .blog-post > .flex-container .media{
     flex-basis: 100%;
     width: 30%;
   }
